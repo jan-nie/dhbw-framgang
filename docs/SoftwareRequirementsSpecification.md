@@ -63,7 +63,7 @@ customers and suppliers can be created and managed
 
 | Title                                                              | Date       | Publishing organization   |
 | -------------------------------------------------------------------|:----------:| ------------------------- |
-| [Framgång Blog](https://dhbwse.wordpress.com/blog/)    | 06.10.2021 | Framgång Team    |
+| [Framgång Blog](https://dhbwse.wordpress.com/blog/)    | 06.10.2022 | Framgång Team    |
 | [GitHub](https://github.com/jan-nie/dhbw-software-engineering)              | 06.10.2022 | Framgång Team    |
 
 
@@ -73,12 +73,12 @@ The following chapter provides an overview of this project with vision and Overa
 ## 2. Overall Description
 
 ### 2.1 Vision
-Our team develops an inventory management system using the Java programming language, which allows it to be used on most common operating systems. Our modular programming approach focuses on inventory management. On the one hand, goods can be recorded and categorized. On the other hand, specific at- tributes are assigned to each product, such as storage location, quantity or price. In order to ensure a consistent data set on the various devices, synchronization takes place via a mongoDB, which is available in the cloud.
+Our team develops an inventory management system using the Java programming language, which allows it to be used on most common operating systems. Our modular programming approach focuses on inventory management. On the one hand, goods can be recorded and categorized. On the other hand, specific attributes are assigned to each product, such as storage location, quantity or price. In order to ensure a consistent data set on the various devices, synchronization takes place via a mongoDB, which is available in the cloud.
 Modular programming allows the scope of the software to be expanded in an arbitrary and agile manner. It also makes it easier to divide up tasks within the team.
 
 ### 2.2 Use Case Diagram 
 
-![OUCD](./UseCaseDiagramCP.png)
+![OUCD](./Use_case_diagram_IMSE.svg)
 
 - Green: Planned till end of december
 - Yellow: Planned till end of june
