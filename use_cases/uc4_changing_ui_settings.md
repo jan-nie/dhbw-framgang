@@ -3,7 +3,7 @@
 # 1. Getting an overview
 
 ## 1.1 Brief Description
-The company administrator has the possibility to change the colour palette of the UI for the company. He also has the possibility to add the logo of the company to the UI and thus personalise the IMSE.
+The company administrator has the possibility to change the colour palette of the UI for the company. He also has the possibility to add the name of the company to the UI and thus personalise the IMSE.
 
 ## 1.2 Mockup
 <img src="mockup_usecase4.png" alt="Screenshot changing UI settings" width="300"/>
@@ -14,14 +14,16 @@ see 1.2
 # 2. Flow of Events
 
 ## 2.1 Basic Flow
-- User navigates to the dashboard (Dashboard is the main page of our App so it gets displayed after App start automatically)
-- User can see a list of all existing sessions
+- The Admin navigates to the settings
+- then the admin must select the Corporate Design tab
+- Here the admin has the option to enter the company name. Adjust the accent colour and store the grey levels. 
+- He can also adjust the font here
 
 ### Activity Diagram
-![Activity Diagram](../activity_diagrams/UCD3_Session_Overview.png)
+<img src="mockup_usecase4.png" alt="Screenshot changing UI settings" width="300"/>
 
-### .feature File
-[.feature File Session Overview](../../frontend/app/src/androidTest/assets/features/UC3_Session_Overview.feature)
+### Sequence Diagram
+<img src="sequenzDiagram_usecase4.jpg" alt="Screenshot sequence diagram changing UI settings" width="300"/>
 ```Cucumber
 Feature: Use Case 3 Session Overview
     As a USER
