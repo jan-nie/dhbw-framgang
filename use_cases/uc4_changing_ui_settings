@@ -6,7 +6,7 @@
 The company administrator has the possibility to change the colour palette of the UI for the company. He also has the possibility to add the logo of the company to the UI and thus personalise the IMSE.
 
 ## 1.2 Mockup
-![Mockup getting an overview](mockup_usecase4.png)
+<img src="mockup_usecase4.png" alt="Screenshot changing UI settings" width="300"/>
 
 ## 1.3 Screenshot
 <img src="./Screenshots/UC3_Session_Overview_Screenshot.png" alt="Screenshot getting an overview" width="300"/>
