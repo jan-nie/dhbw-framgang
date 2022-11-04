@@ -27,7 +27,7 @@ This use case allows the user to see an overview of all products. In addition, p
 n/a
 
 # 3. Special Requirements
-The user needs to have an internet connection. The user must have a role that has the necessary rights (see [use case user roles](./uc2_user_role_management)).
+The user needs to have an internet connection. The user must have a role that has the necessary rights (see [use case user roles](./uc2_user_role_management.md)).
 
 # 4. Preconditions
 The Preconditions for this use case are:
