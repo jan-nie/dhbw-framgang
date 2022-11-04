@@ -119,11 +119,10 @@ Testing:
 ### 3.1 Functionality
 This section will explain the different use cases, you could see in the Use Case Diagram, and their functionality.  
 - 3.1.1 Inventory management
-- 3.1.2 Overview products
-- 3.1.3 User role management
-- 3.1.4 Customer management
-- 3.1.5 Sell process
-- 3.1.6 Changing UI settings
+- 3.1.2 User role management
+- 3.1.3 Customer management
+- 3.1.4 Sell process
+- 3.1.5 Changing UI settings
 
 
 #### 3.1.1 Inventory management
