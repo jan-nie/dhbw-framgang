@@ -6,7 +6,7 @@
 The company administrator has the possibility to change the colour palette of the UI for the company. He also has the possibility to add the name of the company to the UI and thus personalise the IMSE.
 
 ## 1.2 Mockup
-<img src="data_usecase4/mockup_usecase4.png" alt="Screenshot changing UI settings" width="300"/>
+<img src="data_usecase4/mockup_usecase4.png" alt="Screenshot changing UI settings" width="600"/>
 
 ## 1.3 Screenshot
 see 1.2
@@ -20,10 +20,10 @@ see 1.2
 - He can also adjust the font here
 
 ### Activity Diagram
-<img src="data_usecase4/activityDiagram_usecase4.jpg" alt="Screenshot changing UI settings" width="300"/>
+<img src="data_usecase4/activityDiagram_usecase4.jpg" alt="Screenshot changing UI settings" width="600"/>
 
 ### Sequence Diagram
-<img src="data_usecase4/sequenceDiagram_usecase4.png" alt="Screenshot sequence diagram changing UI settings" width="300"/>
+<img src="data_usecase4/sequenceDiagram_usecase4.png" alt="Screenshot sequence diagram changing UI settings" width="600"/>
 
 ## 2.2 Alternative Flows
 n/a
