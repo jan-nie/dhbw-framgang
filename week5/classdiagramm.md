@@ -1,1 +1,1 @@
-![OUCD](./classdiagramm.png)
+![OUCD](./class_diag.png)
