@@ -133,7 +133,7 @@ This function is the essence of our project. The authorized user gets the possib
 #### 3.1.2 Overview products
 This feature provides a basic overview over all current sessions. All posted sessions are added here. From this overview you can select a session and from there join this session.
 
-[Session overview](./use_cases/UC2_Session_Overview.md)
+[Session overview](../use_cases/UC2_Session_Overview.md)
 
 #### 3.1.3 User role management
 To identify all useres we need an account system. This account system enables us to build important functions such as joining a session, leaving a session or a personalized overview over all sessions (Keeping track of your sessions).
