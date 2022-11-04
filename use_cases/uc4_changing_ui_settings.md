@@ -9,7 +9,7 @@ The company administrator has the possibility to change the colour palette of th
 <img src="mockup_usecase4.png" alt="Screenshot changing UI settings" width="300"/>
 
 ## 1.3 Screenshot
-<img src="./Screenshots/UC3_Session_Overview_Screenshot.png" alt="Screenshot getting an overview" width="300"/>
+see 1.2
 
 # 2. Flow of Events
 
