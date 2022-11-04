@@ -48,4 +48,4 @@ The displayed data should be updated whenever the user restarts the programm.
 ![Function Points UC3_Session_Overview](../function_points/UC3_Overview.png)
 <img src="../function_points/Blue_print.png" alt="Function Points Blue_Print" width="500"/>
 
-Total number of function points: 9.52
+Total number of function points: 5
