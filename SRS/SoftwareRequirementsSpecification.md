@@ -113,6 +113,7 @@ Testing:
 -CodeMR
 -RestAssured
 
+
 ## 3. Specific Requirements
 
 ### 3.1 Functionality
@@ -138,12 +139,10 @@ This feature provides a basic overview over all current sessions. All posted ses
 #### 3.1.3 User role management
 To identify all useres we need an account system. This account system enables us to build important functions such as joining a session, leaving a session or a personalized overview over all sessions (Keeping track of your sessions).
 
-[Create an account](./use_cases/UC3_Create_Account.md)
 
 #### 3.1.4 Customer management
 The app will provide the possibility to register and log in. This will also make the usability easier when a user wants to manage his sessions, post or join a session because they don't have to enter their mail address every time.
 
-[Login](./use_cases/UC4_Login.md)
 
 #### 3.1.5 Sell process
 In case you share your phone, have multiple accounts or just want to be cautius about your privacy you should be able to manually log out.
