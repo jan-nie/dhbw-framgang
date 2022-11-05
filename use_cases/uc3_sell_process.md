@@ -20,7 +20,7 @@ This use case allows a user to get an overview over all exisitng sessions. From 
 ![Activity Diagram](./ActivityDiagramSale.jpg?raw=true)
 
 ### Sequence Diagram
-[Sequence Diagram](./SequenceDiagramSale2.jpg?raw=true)
+![Sequence Diagram](./SequenceDiagramSale2.jpg?raw=true)
 
 
 ## 2.2 Alternative Flows
