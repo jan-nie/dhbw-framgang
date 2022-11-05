@@ -1,6 +1,4 @@
-# Sell Process 
-
-# Use-Case Specification: Getting an overview
+# Use-Case Specification: Sell Process
 
 # 1. Getting an overview
 
