@@ -7,7 +7,7 @@
 This use case allows a user to get an overview over all exisitng sessions. From this screen they can select a session and join it ([Join a Session](./UC2_Join_Session.md)).
 
 ## 1.2 Mockup
-![Mockup getting an overview](./User_Managementpng?raw=true)
+![Mockup getting an overview](./User_Management.png?raw=true)
 
 ## 1.3 Screenshot
 follow when implemented.
@@ -49,6 +49,5 @@ n/a
 The user whose role has been changed should be shown what the new role contains. Views that were included in the old role but not in the new one should not be displayed.
 
 # 6. Function Points
-![Function Points UC3_Session_Overview](../function_points/UC3_Overview.png)
 
 Total number of function points: 5
