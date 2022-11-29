@@ -20,20 +20,20 @@ In the unlikely case that errors still occur, we use rollbacks to reset the soft
   If access to the database is not possible, for whatever reason, the user will be notified.
   If necessary, the user must notify the admin or a technician. In addition, the incident should be noted.
   In the worst case, the system is temporarily unavailable.
-- Coordination Model:
+- Coordination Model:<br>
 	If the connection to the database isn’t possible, the system detects it and handles the problem accordingly.
   The user will be notified and if it is a hardware problem with the database, it should be fixed soon as the database is external.
-- Data Model:
+- Data Model:<br>
 	All portions of the system need to be highly available.
-  Reasons for errors could be:
+  Reasons for errors could be:<br>
   -	Incorrect input which was validated
   -	Network settings of the user's device
   -	Problems in the user's local network
   -	Database connection not possible
-- Mapping among Architectural Elements	?
-- Reource Management	?
-- Binding Time	?
-- Choice of Technology:
+- Mapping among Architectural Elements<br>	?
+- Reource Management<br>	?
+- Binding Time<br>	?
+- Choice of Technology:<br>
 	Detect/help/recover from faults:
 	Event loggers
 
