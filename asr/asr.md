@@ -9,8 +9,10 @@
 | Software | server unresponsive | Firewall | normal operation | activate VPN | 20 minutes |
 
 ### 1.2 Tactics
-- __Detect Faults__: We detect errors by extensively testing our software with JUnit tests (self-test) before release. In addition, all input parameters are checked for plausibility according to sanity checking.
-- __Recover from Faults__: In the unlikely case that errors still occur, we use rollbacks to reset the software to a previous state. The exception handling supports us in troubleshooting.
+- __Detect Faults__: 
+We detect errors by extensively testing our software with JUnit tests (self-test) before release. In addition, all input parameters are checked for plausibility according to sanity checking.
+- __Recover from Faults__:
+In the unlikely case that errors still occur, we use rollbacks to reset the software to a previous state. The exception handling supports us in troubleshooting.
 
 ## 2. Architecture decisions and concrete design patterns IMSE will follow
 ### 2.1 Architecture decisions
