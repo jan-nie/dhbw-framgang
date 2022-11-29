@@ -15,7 +15,7 @@ We detect errors by extensively testing our software with JUnit tests (self-test
 In the unlikely case that errors still occur, we use rollbacks to reset the software to a previous state. The exception handling supports us in troubleshooting.
 
 ### 1.3 Checklist Availability
-- Allocation of Responsibilities:
+- Allocation of Responsibilities:<br>
   The database connection needs to be highly available.
   If access to the database is not possible, for whatever reason, the user will be notified.
   If necessary, the user must notify the admin or a technician. In addition, the incident should be noted.
