@@ -1,4 +1,4 @@
-# Summary of architectural decisions and design patters for IMSE
+# Summary of architectural decisions and design patterns for IMSE
 
 ## 1. Tactics IMSE will practice
 ### 1.1 Quality attribute scenarios: Availability
@@ -14,10 +14,8 @@
 
 ## 2. Architecture decisions and concrete design patterns IMSE will follow
 ### 2.1 Architecture decisions
-- AMOGUS will follow a service based architecture to enforce modularization and increase cohesion, hence making modifications more centralized and independent.
-- Backend and frontend will be completely seperated (only communicating through a REST-API) to further decouple the application.
-- Backend and frontend will be deployed in different docker containers therefore making deployment easier.
+- Backend and frontend are completely separated from each other (communication takes place only via defined interfaces)
 
 ### 2.2 Design patterns
-- The backend will be using the MVC pattern to further encapsulate the behaviors (with the View being the REST-API layer).
-- The frontend will implement the MVVM pattern to ensure a responsive feel. 
+- The backend will use the MVC pattern to further segment the functionalities.
+
