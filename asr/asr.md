@@ -5,14 +5,20 @@
 
 | Source | Stimulus | Artifact | Environment | Response | Response measure |
 | - | - | - | - | - | - |
-| Hardware | server unresponsive | Database | normal operation | inform operator | not calculateable/ should be solved within a day |
+| Software of MongoDB | server unresponsive | Database | internet connection breaks during user input | inform user | within 1 minute |
 | Software | server unresponsive | Firewall | normal operation | activate VPN | 20 minutes |
 
 ### 1.2 Tactics
 - __Detect Faults__: 
 We detect errors by extensively testing our software with JUnit tests (self-test) before release. In addition, all input parameters are checked for plausibility according to sanity checking.
+
+nur während laufzeit, junit nicht, sanity checking -> prevent (data types prüfen, laufzeit fehler verhindern)
+ping/echo (jede min), exception handling, error log
 - __Recover from Faults__:
+lokaler cache (eingabedaten zwischengespeichert) -> internet connection bricht ab -> verwende cache
 In the unlikely case that errors still occur, we use rollbacks to reset the software to a previous state. The exception handling supports us in troubleshooting.
+- prevent:
+sanity
 
 ### 1.3 Checklist Availability
 - Allocation of Responsibilities:<br>
