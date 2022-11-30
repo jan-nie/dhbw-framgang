@@ -22,7 +22,7 @@
    - [Overview](#81-overview)
    - [Layers](#82-layers)
 - [Data View](#9-data-view)
-- [Size nd Performance](#10-size-and-performance)
+- [Size and Performance](#10-size-and-performance)
 - [Quality](#11-quality)
 
 
@@ -62,29 +62,29 @@
 
 ## 4. Use-Case View
 
-###4.1 Use-Case Realizations
+### 4.1 Use-Case Realizations
 
-##5 Logical View
+## 5 Logical View
 
-###5.1 Overview
+### 5.1 Overview
 
-###5.2 Architecturally Significant Design Packages
+### 5.2 Architecturally Significant Design Packages
 
-##6 Process View
+## 6 Process View
 
-##7 Deployment View
+## 7 Deployment View
 
-##8 Implementation View
+## 8 Implementation View
 
-###8.1 Overview
+### 8.1 Overview
 
-###8.2 Layers
+### 8.2 Layers
 
-##9 Data View
+## 9 Data View
 
-##10 Size and Performance
+## 10 Size and Performance
 
-##11 Quality
+## 11 Quality
 
 <!-- Picture-Link definitions: -->
 [OUCD]: https://github.com/IB-KA/CommonPlayground/blob/master/UseCaseDiagramCP.png "Overall Use Case Diagram"
