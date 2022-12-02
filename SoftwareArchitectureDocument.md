@@ -49,10 +49,10 @@ This document provides a comprehensive architectural overview of the system, usi
 
 ### 1.4 References
 
-| Title                                                              | Date       | Publishing organization   |
-| -------------------------------------------------------------------|:----------:| ------------------------- |
-| [Framgång Blog](https://dhbwse.wordpress.com/blog/)    | 06.10.2022 | Framgång Team    |
-| [GitHub](https://github.com/jan-nie/dhbw-software-engineering)              | 06.10.2022 | Framgång Team    |
+| Title                                                               | Date       | Publishing organization   |
+| --------------------------------------------------------------------|:----------:| ------------------------- |
+| [Framgång Blog](https://dhbwse.wordpress.com/blog/)                 | 06.10.2022 | Framgång Team             |
+| [GitHub](https://github.com/jan-nie/dhbw-framgang)                  | 06.10.2022 | Framgång Team             |
 [This subsection provides a complete list of all documents referenced elsewhere in the Software Architecture Document. Identify each document by title, report number (if applicable), date, and publishing organization. Specify the sources from which the references can be obtained. This information may be provided by reference to an appendix or to another document.]
 
 ### 1.5 Overview
@@ -72,15 +72,18 @@ architectural elements or if they stress or illustrate a specific, delicate poin
 
 ### 4.1 Use-Case Realizations
 [This section illustrates how the software actually works by giving a few selected use-case (or scenario) realizations, and explains how the various design model elements contribute to their functionality.]
-
+Use Case: inventory management [here](./use_cases/uc1_inventory_management.md)
+Use Case: user role management [here](./use_cases/uc2_user_role_management.md)
+Use Case: sell process [here](./use_cases/uc3_sell_process.md)
+Use Case: changing ui [here](./use_cases/uc4_changing_ui_settings.md)
 
 ## 5 Logical View
 [This section describes the architecturally significant parts of the design model, such as its decomposition into subsystems and packages. And for each significant package, its decomposition into classes and class utilities. You should introduce architecturally significant classes and describe their responsibilities, as well as a few very important relationships, operations, and attributes.]
-
+we put the focus on the interfaces. Here we agreed on the MVC model as the architectural basis. All communication takes place via specially defined interfaces. For example, each of our controllers communicates with the view via interfaces.
 
 ### 5.1 Overview
 [This subsection describes the overall decomposition of the design model in terms of its package hierarchy and layers.]
-
+Class diagram [here](./week5/classdiagram.md)
 
 ### 5.2 Architecturally Significant Design Packages
 [For each significant package, include a subsection with its name, its brief description, and a diagram with all significant classes and packages contained within the package. 
@@ -88,7 +91,9 @@ For each significant class in the package, include its name, brief description, 
 
 ## 6 Process View
 [This section describes the system's decomposition into lightweight processes (single threads of control) and heavyweight processes (groupings of lightweight processes). Organize the section by groups of processes that communicate or interact. Describe the main modes of communication between processes, such as message passing, interrupts, and rendezvous.]
-
+Sequence digramm: user role management [here](./use_cases/Sequenz_Diagram_User_Role_Management.png)
+Sequence digramm: inventory management [here](./use_cases/sequenzDiagram_inventory.png)
+Sequence digramm: sell process [here](./use_cases/SequenceDiagramSale2.jpg)
 
 ## 7 Deployment View
 [This section describes one or more physical network (hardware) configurations on which the software is deployed and run. It is a view of the Deployment Model. At a minimum for each configuration it should indicate the physical nodes (computers, CPUs) that execute the software and their interconnections (bus, LAN, point-to-point, and so on.) Also include a mapping of the processes of the Process View onto the physical nodes.]
