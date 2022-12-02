@@ -99,31 +99,37 @@ Sequence digramm: sell process [here](./use_cases/SequenceDiagramSale2.jpg)
 A salesperson can create sales orders via the GUI. The goods are displayed together with the stock. He can then enter the desired quantities and save the order. This order is validated in the controller. If the validation is successful, the stock is updated in the database and the order is saved. 
 
 ## 7 Deployment View
-[This section describes one or more physical network (hardware) configurations on which the software is deployed and run. It is a view of the Deployment Model. At a minimum for each configuration it should indicate the physical nodes (computers, CPUs) that execute the software and their interconnections (bus, LAN, point-to-point, and so on.) Also include a mapping of the processes of the Process View onto the physical nodes.]
-
+Deployment diagram:
+![OUCD](./deployment-diagram.png)
 
 ## 8 Implementation View
-[This section describes the overall structure of the implementation model, the decomposition of the software into layers and subsystems in the implementation model, and any architecturally significant components.]
+Package diagram:
+![OUCD](./package-diagram.png)
 
 
 ### 8.1 Overview
-[This subsection names and defines the various layers and their contents, the rules that govern the inclusion to a given layer, and the boundaries between layers. Include a component diagram that shows the relations between layers. ]
+tbd
 
 
 ### 8.2 Layers
-[For each layer, include a subsection with its name, an enumeration of the subsystems located in the layer, and a component diagram.]
+tbd
 
 
 ## 9 Data View
-[A description of the persistent data storage perspective of the system. This section is optional if there is little or no persistent data, or the translation between the Design Model and the Data Model is trivial.]
-
+Database ER-Diagram:
+[here](./)
 
 ## 10 Size and Performance
-[A description of the major dimensioning characteristics of the software that impact the architecture, as well as the target performance constraints.]
+As indicated in the project vision, we are developing the software for desktop devices with the common operating systems Windows, Linux and macOS. On the other hand, porting to portable devices such as tablets and smartphones running iOS and Android is not planned.
+We also use multiple threads for parallel task processing. While the user interacts with the software, background processes are running, which concern availability, for example (see Section 11).
 
 
 ## 11 Quality
-[A description of how the software architecture contributes to all capabilities (other than functionality) of the system: extensibility, reliability, portability, and so on. If these characteristics have special significance, such as safety, security or privacy implications, they must be clearly delineated.]
+We rely on three eminent tactics for the quality feature Availability: 
+- Detect Faults: One of the most important functions is the ping/echo test, whereby the database server is pinged at regular intervals in the background to check availability. In addition, all warnings, error messages and exception outputs are saved in a log file.
+- Recover from Faults: If the internet connection fails, entered data is cached locally and synchronized with the database at the next opportunity.
+- Prevent Faults: User input is processed as part of sanity checking. Data types are checked and adjusted if necessary, and the connection to the database is made exclusively using the interfaces to prevent SQL injections.
+
 
 
 <!-- Picture-Link definitions: -->
