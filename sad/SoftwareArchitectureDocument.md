@@ -43,7 +43,6 @@ This document provides a comprehensive architectural overview of the system, usi
 | tbd         | to be determined                       |
 | UCD         | overall Use Case Diagram               |
 | FAQ         | Frequently asked Questions             |
-[This subsection provides the definitions of all terms, acronyms, and abbreviations required to properly interpret the Software Architecture Document.  This information may be provided by reference to the project’s Glossary.]
 
 ### 1.4 References
 
@@ -51,7 +50,6 @@ This document provides a comprehensive architectural overview of the system, usi
 | --------------------------------------------------------------------|:----------:| ------------------------- |
 | [Framgång Blog](https://dhbwse.wordpress.com/blog/)                 | 06.10.2022 | Framgång Team             |
 | [GitHub](https://github.com/jan-nie/dhbw-framgang)                  | 06.10.2022 | Framgång Team             |
-[This subsection provides a complete list of all documents referenced elsewhere in the Software Architecture Document. Identify each document by title, report number (if applicable), date, and publishing organization. Specify the sources from which the references can be obtained. This information may be provided by reference to an appendix or to another document.]
 
 ### 1.5 Overview
 [This subsection describes what the rest of the Software Architecture Document contains and explains how the Software Architecture Document is organized.]
