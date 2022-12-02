@@ -31,10 +31,8 @@
 ### 1.1 Purpose
 This document provides a comprehensive architectural overview of the system, using a number of different architectural views to depict different aspects of the system. It is intended to capture and convey the significant architectural decisions which have been made on the system.
 
-[This section defines the role or purpose of the Software Architecture Document, in the overall project documentation, and briefly describes the structure of the document. The specific audiences for the document is identified, with an indication of how they are expected to use the document.]
-
 ### 1.2 Scope
-[A brief description of what the Software Architecture Document applies to; what is affected or influenced by this document.]
+
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 | Abbrevation | Explanation                            |
@@ -59,7 +57,11 @@ This document provides a comprehensive architectural overview of the system, usi
 [This subsection describes what the rest of the Software Architecture Document contains and explains how the Software Architecture Document is organized.]
     
 ## 2. Architectural Representation
-[This subsection describes what the rest of the Software Architecture Document contains and explains how the Software Architecture Document is organized.]
+Both the front end (an Android app) and the back end of this project make use of the MVC Pattern (Spring).
+As a result, the model (data model, domain-specific classes), view (user interface), and controller (which manages the application) are distinct. The following image illustrates the MVC pattern: 
+![OUCD](./MVC_MVP.png)
+Source: https://www.techyourchance.com/wp-content/uploads/2015/06/MVC_MVP.png
+
 
 ## 3. Architectural Goals and Constraints
 [This section describes the software requirements and objectives that have some significant impact on the architecture; for example, safety, security, privacy, use of an off-the-shelf product, portability, distribution, and reuse. It also captures the special constraints that may apply: design and implementation strategy, development tools, team structure, schedule, legacy code, and so on.]
@@ -71,26 +73,16 @@ architectural elements or if they stress or illustrate a specific, delicate poin
 
 
 ### 4.1 Use-Case Realizations
-[This section illustrates how the software actually works by giving a few selected use-case (or scenario) realizations, and explains how the various design model elements contribute to their functionality.]
 Use Case: inventory management [here](./use_cases/uc1_inventory_management.md)
 Use Case: user role management [here](./use_cases/uc2_user_role_management.md)
 Use Case: sell process [here](./use_cases/uc3_sell_process.md)
 Use Case: changing ui [here](./use_cases/uc4_changing_ui_settings.md)
 
 ## 5 Logical View
-[This section describes the architecturally significant parts of the design model, such as its decomposition into subsystems and packages. And for each significant package, its decomposition into classes and class utilities. You should introduce architecturally significant classes and describe their responsibilities, as well as a few very important relationships, operations, and attributes.]
 we put the focus on the interfaces. Here we agreed on the MVC model as the architectural basis. All communication takes place via specially defined interfaces. For example, each of our controllers communicates with the view via interfaces.
-
-### 5.1 Overview
-[This subsection describes the overall decomposition of the design model in terms of its package hierarchy and layers.]
 Class diagram [here](./week5/classdiagram.md)
 
-### 5.2 Architecturally Significant Design Packages
-[For each significant package, include a subsection with its name, its brief description, and a diagram with all significant classes and packages contained within the package. 
-For each significant class in the package, include its name, brief description, and, optionally, a description of some of its major responsibilities, operations, and attributes.]
-
 ## 6 Process View
-[This section describes the system's decomposition into lightweight processes (single threads of control) and heavyweight processes (groupings of lightweight processes). Organize the section by groups of processes that communicate or interact. Describe the main modes of communication between processes, such as message passing, interrupts, and rendezvous.]
 Sequence digramm: user role management [here](./use_cases/Sequenz_Diagram_User_Role_Management.png)
 The administrator has the option of creating a new user or adjusting the rights of an existing user. The distribution of rights is done via already defined presets (i.e. a buyer needs the rights to see the stock of goods, but is not allowed to change it). The consistency of the data is ensured via a database. 
 Sequence digramm: inventory management [here](./use_cases/sequenzDiagram_inventory.png)
@@ -99,20 +91,12 @@ Sequence digramm: sell process [here](./use_cases/SequenceDiagramSale2.jpg)
 A salesperson can create sales orders via the GUI. The goods are displayed together with the stock. He can then enter the desired quantities and save the order. This order is validated in the controller. If the validation is successful, the stock is updated in the database and the order is saved. 
 
 ## 7 Deployment View
-Deployment diagram:
+Deployment diagram:<br>
 ![OUCD](./deployment-diagram.png)
 
 ## 8 Implementation View
-Package diagram:
+Package diagram:<br>
 ![OUCD](./package-diagram.png)
-
-
-### 8.1 Overview
-tbd
-
-
-### 8.2 Layers
-tbd
 
 
 ## 9 Data View
