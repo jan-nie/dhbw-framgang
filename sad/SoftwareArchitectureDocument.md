@@ -56,8 +56,8 @@ This document provides a comprehensive architectural overview of the system, usi
     
 ## 2. Architectural Representation
 Both the front end (an Android app) and the back end of this project make use of the MVC Pattern (Spring).
-As a result, the model (data model, domain-specific classes), view (user interface), and controller (which manages the application) are distinct. The following image illustrates the MVC pattern: 
-![OUCD](./MVC_MVP.png)
+As a result, the model (data model, domain-specific classes), view (user interface), and controller (which manages the application) are distinct. The following image illustrates the MVC pattern: <br>
+![OUCD](./MVC_MVP.png)<br>
 Source: https://www.techyourchance.com/wp-content/uploads/2015/06/MVC_MVP.png
 
 
