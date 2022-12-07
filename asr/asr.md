@@ -10,15 +10,14 @@
 
 ### 1.2 Tactics
 - __Detect Faults__: 
-We detect errors by extensively testing our software with JUnit tests (self-test) before release. In addition, all input parameters are checked for plausibility according to sanity checking.
+To detect errors, we use a ping/echo test. With its help, the database is pinged at regular intervals and an echo is returned if successful. This helps to detect problems with the connection or the database servers. In addition, all operations are documented in a log file. For example, specific error messages are created as part of exception handling and saved in the log.
 
-nur während laufzeit, junit nicht, sanity checking -> prevent (data types prüfen, laufzeit fehler verhindern)
-ping/echo (jede min), exception handling, error log
 - __Recover from Faults__:
-lokaler cache (eingabedaten zwischengespeichert) -> internet connection bricht ab -> verwende cache
-In the unlikely case that errors still occur, we use rollbacks to reset the software to a previous state. The exception handling supports us in troubleshooting.
-- prevent:
-sanity
+If the Internet connection is interrupted while the user is entering data, they are stored in a local cache and can be transferred if the connection is stable.
+
+- __Prevent Faults__:
+A sanity check is performed with all entries. On the one hand, data types are checked and adjusted if necessary to prevent errors during runtime. On the other hand, the input data is not sent directly to the database but processed using the database interfaces to prevent injections.
+
 
 ### 1.3 Checklist Availability
 - Allocation of Responsibilities:<br>
