@@ -71,21 +71,21 @@ architectural elements or if they stress or illustrate a specific, delicate poin
 
 
 ### 4.1 Use-Case Realizations
-Use Case: inventory management [here](./use_cases/uc1_inventory_management.md)
-Use Case: user role management [here](./use_cases/uc2_user_role_management.md)
-Use Case: sell process [here](./use_cases/uc3_sell_process.md)
-Use Case: changing ui [here](./use_cases/uc4_changing_ui_settings.md)
+Use Case: inventory management [here](../use_cases/uc1_inventory_management.md)
+Use Case: user role management [here](../use_cases/uc2_user_role_management.md)
+Use Case: sell process [here](../use_cases/uc3_sell_process.md)
+Use Case: changing ui [here](../use_cases/uc4_changing_ui_settings.md)
 
 ## 5 Logical View
 we put the focus on the interfaces. Here we agreed on the MVC model as the architectural basis. All communication takes place via specially defined interfaces. For example, each of our controllers communicates with the view via interfaces.
-Class diagram [here](./week5/classdiagram.md)
+Class diagram [here](../week5/classdiagram.md)
 
 ## 6 Process View
-Sequence digramm: user role management [here](./use_cases/Sequenz_Diagram_User_Role_Management.png)
+Sequence digramm: user role management [here](../use_cases/Sequenz_Diagram_User_Role_Management.png)
 The administrator has the option of creating a new user or adjusting the rights of an existing user. The distribution of rights is done via already defined presets (i.e. a buyer needs the rights to see the stock of goods, but is not allowed to change it). The consistency of the data is ensured via a database. 
-Sequence digramm: inventory management [here](./use_cases/sequenzDiagram_inventory.png)
+Sequence digramm: inventory management [here](../use_cases/sequenzDiagram_inventory.png)
 The buyer can open the required window via the GUI and can create products there. The data entered is checked for correctness in the controller and then written to the database. 
-Sequence digramm: sell process [here](./use_cases/SequenceDiagramSale2.jpg)
+Sequence digramm: sell process [here](../use_cases/SequenceDiagramSale2.jpg)
 A salesperson can create sales orders via the GUI. The goods are displayed together with the stock. He can then enter the desired quantities and save the order. This order is validated in the controller. If the validation is successful, the stock is updated in the database and the order is saved. 
 
 ## 7 Deployment View
