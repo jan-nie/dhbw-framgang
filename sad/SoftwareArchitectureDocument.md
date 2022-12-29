@@ -56,17 +56,32 @@ Source: https://www.techyourchance.com/wp-content/uploads/2015/06/MVC_MVP.png
 
 
 ## 3. Architectural Goals and Constraints
-[This section describes the software requirements and objectives that have some significant impact on the architecture; for example, safety, security, privacy, use of an off-the-shelf product, portability, distribution, and reuse. It also captures the special constraints that may apply: design and implementation strategy, development tools, team structure, schedule, legacy code, and so on.]
+### 3.1 Security 
+The system must be secured so that no unauthorized person can manipulate or view data.
+The application must implement basic security behaviors:
+- Authentication: Login using at least a user name and a password
+- Authorization: according to their profile, users must be granted or not to perform some specific actions (administrator, warehouse logistician, etc.)
+<br>
+For internet access, the following requirements are mandatory
+- Confidentiality: sensitive data must be encrypted (all user data is stored encrypted in the database)
+- Data integrity : data sent across the network cannot be modified.
+- Auditing: all sensitive actions can be logged
 
+### 3.2 Persistence
+Data persistence will be addressed using a non-relational database. <br>
+The availability of the system is by nature an important requirement and in our case also a quality feature, because it is a management tool for the sale of goods of other companies. To ensure availability, we use several tactics, which are explained in [Chapter 11](#11-quality).
+
+### 3.3 Distribution
+Inventory Management System Enterprise software is distributed through our key account managers in face-to-face policy. Interested companies can contact us and negotiate the license conditions with us.
 
 ## 4. Use-Case View
 This section lists use cases or scenarios from the use case model with central functionality of the overall system.
 
 ### 4.1 Use-Case Realizations
-- Use Case: [inventory management](../use_cases/uc1_inventory_management.md)
-- Use Case: [user role management](../use_cases/uc2_user_role_management.md)
-- Use Case: [sell process](../use_cases/uc3_sell_process.md)
-- Use Case: [changing ui](../use_cases/uc4_changing_ui_settings.md)
+- Use Case 1: [inventory management](../use_cases/uc1_inventory_management.md)
+- Use Case 2: [user role management](../use_cases/uc2_user_role_management.md)
+- Use Case 3: [sell process](../use_cases/uc3_sell_process.md)
+- Use Case 4: [changing ui](../use_cases/uc4_changing_ui_settings.md)
 
 ## 5 Logical View
 We put the focus on the interfaces. Here we agreed on the MVC model as the architectural basis. All communication takes place via specially defined interfaces. For example, each of our controllers communicates with the view via interfaces.
