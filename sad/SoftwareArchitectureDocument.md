@@ -46,11 +46,10 @@ The goal of this SAD is to show the architecture of our inventory management pro
 | [GitHub](https://github.com/jan-nie/dhbw-framgang)                  | 06.10.2022 | Framgång Team             |
 
 ### 1.5 Overview
-[This subsection describes what the rest of the Software Architecture Document contains and explains how the Software Architecture Document is organized.]
 This document deals with the representation of our architecture, goals and constraints. Other important points are logical, deployment, implementation and data views.
     
 ## 2. Architectural Representation
-Both the front end (an Android app) and the back end of this project make use of the MVC Pattern (Spring).
+The implementation of this project usees the MVC Pattern (Spring).
 As a result, the model (data model, domain-specific classes), view (user interface), and controller (which manages the application) are distinct. The following image illustrates the MVC pattern: <br>
 ![OUCD](./MVC_MVP.png)<br>
 Source: https://www.techyourchance.com/wp-content/uploads/2015/06/MVC_MVP.png
