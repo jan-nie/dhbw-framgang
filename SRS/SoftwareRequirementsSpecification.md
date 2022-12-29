@@ -56,7 +56,6 @@ customers and suppliers can be created and managed
 | n/a         | not applicable                         |
 | tbd         | to be determined                       |
 | UCD         | overall Use Case Diagram               |
-| FAQ         | Frequently asked Questions             |
 
 ### 1.4 References
 
@@ -159,8 +158,8 @@ Due to the fact that productive work is not possible if the server is not access
 #### 3.4.1 Capacity
 The system should be able to manage hundreds of requests. Also it should be possible to register as many users as necessary and all products. 
 
-#### 3.4.2 App perfomance / Response time
-To provide the best App perfomance we aim to keep the response time as low as possible. This will make the user experience much better.
+#### 3.4.2  Response time
+To provide the best perfomance we aim to keep the response time as low as possible. This will make the user experience much better.
 
 ### 3.5 Supportability
 
@@ -194,7 +193,7 @@ The User interfaces that will be implented are:
 (n/a)
 
 #### 3.8.3 Software Interfaces
-The app will be runnable on Java 17 and higher.  
+The application will be runnable on Java 17 and higher.  
 
 ### 3.9 Licensing Requirements
 
@@ -202,7 +201,7 @@ The app will be runnable on Java 17 and higher.
 The development will follow the common clean code standards and naming conventions. 
 
 ## 4. Supporting Information
-For any further information you can contact the Common Playground Team or check our [Common Playground Blog](http://commonplayground.wordpress.com). 
+For any further information you can contact us or check our [Blog](https://dhbwse.wordpress.com/blog/). 
 The Team Members are:
 - Jan Niederhoefer
 - Dominik Fuchs
@@ -211,4 +210,3 @@ The Team Members are:
 - Nicolai Eisenstein
 
 <!-- Picture-Link definitions: -->
-[OUCD]: https://github.com/IB-KA/CommonPlayground/blob/master/UseCaseDiagramCP.png "Overall Use Case Diagram"
