@@ -60,8 +60,7 @@ Source: https://www.techyourchance.com/wp-content/uploads/2015/06/MVC_MVP.png
 
 
 ## 4. Use-Case View
-[This section lists use cases or scenarios from the use-case model if they represent some significant, central functionality of the final system, or if they have a large architectural coverage—they exercise many architectural elements or if they stress or illustrate a specific, delicate point of the architecture.]
-
+This section lists use cases or scenarios from the use case model with central functionality of the overall system.
 
 ### 4.1 Use-Case Realizations
 - Use Case: [inventory management](../use_cases/uc1_inventory_management.md)
