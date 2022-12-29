@@ -11,6 +11,9 @@
     - [Overview](#15-overview)
 - [Architectural Representation](#2-architectural-representation)
 - [Architectural Goals and Constraints](#3-architectural-goals-and-constraints)
+    - [Security](#31-security)
+    - [Persistence](#32-persistence)
+    - [Distribution](#33-distribution)
 - [Use-Case View](#4-use-case-view)
    - [Use-Case Realizations](#41-use-case-realization)
 - [Logical View](#5-logical-view)
@@ -61,7 +64,7 @@ The system must be secured so that no unauthorized person can manipulate or view
 The application must implement basic security behaviors:
 - Authentication: Login using at least a user name and a password
 - Authorization: according to their profile, users must be granted or not to perform some specific actions (administrator, warehouse logistician, etc.)
-<br>
+
 For internet access, the following requirements are mandatory
 - Confidentiality: sensitive data must be encrypted (all user data is stored encrypted in the database)
 - Data integrity : data sent across the network cannot be modified.
