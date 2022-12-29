@@ -64,10 +64,10 @@ Source: https://www.techyourchance.com/wp-content/uploads/2015/06/MVC_MVP.png
 
 
 ### 4.1 Use-Case Realizations
-Use Case: inventory management [here](../use_cases/uc1_inventory_management.md)
-Use Case: user role management [here](../use_cases/uc2_user_role_management.md)
-Use Case: sell process [here](../use_cases/uc3_sell_process.md)
-Use Case: changing ui [here](../use_cases/uc4_changing_ui_settings.md)
+- Use Case: [inventory management](../use_cases/uc1_inventory_management.md)
+- Use Case: [user role management](../use_cases/uc2_user_role_management.md)
+- Use Case: [sell process](../use_cases/uc3_sell_process.md)
+- Use Case: [changing ui](../use_cases/uc4_changing_ui_settings.md)
 
 ## 5 Logical View
 We put the focus on the interfaces. Here we agreed on the MVC model as the architectural basis. All communication takes place via specially defined interfaces. For example, each of our controllers communicates with the view via interfaces.
