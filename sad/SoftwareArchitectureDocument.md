@@ -1,5 +1,5 @@
 # Inventory Management System Enterprise (IM SE)
- - Software Architecture Document
+# Software Architecture Document
 
 ## Table of contents
 - [Table of contents](#table-of-contents)
@@ -46,11 +46,11 @@ The goal of this SAD is to show the architecture of our inventory management pro
 | [GitHub](https://github.com/jan-nie/dhbw-framgang)                  | 06.10.2022 | Framgång Team             |
 
 ### 1.5 Overview
-This document deals with the representation of our architecture, goals and constraints. Other important points are logical, deployment, implementation and data views.
+This software architecture document is divided into 11 chapters and provides information about the architecture, goals and constraints, among other things. Other important points are logical view, deployment, implementation and data views.
     
 ## 2. Architectural Representation
-The implementation of this project usees the MVC Pattern (Spring).
-As a result, the model (data model, domain-specific classes), view (user interface), and controller (which manages the application) are distinct. The following image illustrates the MVC pattern: <br>
+The implementation of this project uses the MVC Pattern.
+As a result, the model (data model), view (user interface), and controller (which manages the application) are distinct. The following image illustrates the MVC pattern: <br>
 ![OUCD](./MVC_MVP.png)<br>
 Source: https://www.techyourchance.com/wp-content/uploads/2015/06/MVC_MVP.png
 
