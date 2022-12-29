@@ -28,7 +28,6 @@
     - [Applicable Standards](#312-applicable-standards)
 - [Supporting Information](#4-supporting-information)
 
-## 1. Introduction
 
 ### 1.1 Purpose
 This Software Requirements Specification (SRS) describes all specifications for the application “IM SE”. It includes an overview about this project and its vision, detailed information about the planned features and boundary conditions of the development process.
@@ -63,13 +62,14 @@ customers and suppliers can be created and managed
 
 | Title                                                              | Date       | Publishing organization   |
 | -------------------------------------------------------------------|:----------:| ------------------------- |
-| [Framgång Blog](https://dhbwse.wordpress.com/blog/)    | 06.10.2022 | Framgång Team    |
-| [GitHub](https://github.com/jan-nie/dhbw-software-engineering)              | 06.10.2022 | Framgång Team    |
+| [Framgång Blog](https://dhbwse.wordpress.com/blog/)                | 06.10.2022 | Framgång Team             |
+| [GitHub](https://github.com/jan-nie/dhbw-software-engineering)     | 06.10.2022 | Framgång Team             |
 
 
 ### 1.5 Overview
 The following chapter provides an overview of this project with vision and Overall Use Case Diagram. The third chapter (Requirements Specification) delivers more details about the specific requirements in terms of functionality, usability and design parameters. Finally, there is a chapter with supporting information.
-    
+
+
 ## 2. Overall Description
 
 ### 2.1 Vision
@@ -91,28 +91,18 @@ Backend:
 -H2 Database
 
 Frontend:
--Android with Java and XML
+-Java and FXML
 
 IDE:
--IntelliJ and Android Studio
+-Eclipse
 
 Project Management:
 -YouTrack
 -GitHub
--Microsoft Teams
-
-Deployment:
--Travis CI
--Docker and Heroku
+-Discord
 
 Testing:
--Cucumber
--Espresso
 -JUnit
--Codacy
--CodeMR
--RestAssured
-
 
 ## 3. Specific Requirements
 
@@ -157,29 +147,19 @@ There is also the possibility to join an existing game session. Therefore, the u
 ### 3.2 Usability
 We plan on designing the user interface as intuitive and self-explanatory as possible to make the user feel as comfortable as possible using the app. Though an FAQ document will be available, it should not be necessary to use it.
 
-#### 3.2.1 No training time needed
-Our goal is that a user installs the android application, opens it and is able to use all features without any explanation or help.
-
-#### 3.2.2 Familiar Feeling
-We want to implement an app with familiar designs and functions. This way the user is able to interact in familiar ways with the app without having to get to know new interfaces.
 
 ### 3.3 Reliability
 
 #### 3.3.1 Availability
-The server shall be available 95% of the time. This also means we have to figure out the "rush hours" of our app because the downtime of the server is only tolerable when as few as possible players want to use the app.
+Due to the fact that productive work is not possible if the server is not accessible, an up-time of at least 99% should be guaranteed. This is guaranteed by the provider MongoDB, which provides a backup server.
 
-#### 3.3.2 Defect Rate
-Our goal is that we have no loss of any data. This is important so that the game sessions can carry on, even after a downtime of the server.
 
 ### 3.4 Perfomance
 
 #### 3.4.1 Capacity
-The system should be able to manage thousands of requests. Also it should be possible to register as many users as necessary.
+The system should be able to manage hundreds of requests. Also it should be possible to register as many users as necessary and all products. 
 
-#### 3.4.2 Storage 
-Smartphones don't provide much storage. Therefore we are aiming to keep the needed storage as small as possible.
-
-#### 3.4.3 App perfomance / Response time
+#### 3.4.2 App perfomance / Response time
 To provide the best App perfomance we aim to keep the response time as low as possible. This will make the user experience much better.
 
 ### 3.5 Supportability
@@ -193,47 +173,33 @@ The application will have a high test coverage and all important functionalities
 ### 3.6 Design Constraints
 We are trying to provide a modern and easy to handle design for the UI aswell as for the architecture of our application. To achieve that the functionalities will be kept as modular as possible.
 
-Because we are progamming an Android App we chose Java as our programming language. Also we are using the common MVC-architecture to keep the front end and back end seperated. For a clean front end structure we use MVVM.
-To make the communication between the two parts easy, we will implement a RESTful-API between them which will provide the data in JSON-Format. 
 The supported Platforms will be:
-- Android 4.4 and higher
-- Java 8 and higher
+- Java 17 and higher
 
-### 3.7 On-line User Documentation and Help System Requirements
-The usage of the app should be as intuitive as possible so it won't need any further documentation. If the user needs some help we will implement a "Help"-Button in the App which includes a FAQ and a formular to contact the developement team.
-
-### 3.8 Purchased Components
+### 3.7 Purchased Components
 We don't have any purchased components yet. If there will be purchased components in the future we will list them here.
 
-### 3.9 Interfaces
+### 3.8 Interfaces
 
-#### 3.9.1 User Interfaces
+#### 3.8.1 User Interfaces
 The User interfaces that will be implented are:
-- Dashboard - lists all session and makes it possible to filter sessions
-- Session Page - shows detailed information about the session and makes it possible to connect session attendants for example via messaging system
+- Dashboard - overview of important informations
 - Login - this page is used to log in 
-- Register - provides a registration form
-- Overwiew of personal sessions - shows all the sessions a user participates in
-- Friend List - friends can be added
-- Profile - makes it possible to post information about yourself, might provide messaging feature, also shows additional information about users (for example: Language, country, favorite games, etc.)
+- Register - provides a registration form (can be used by Admin)
+- Inventory Overview - lists all products and their essential data
 - Settings - shows the settings
+- Supplier - lists all suppliers and their essential data
 
-#### 3.9.2 Hardware Interfaces
+#### 3.8.2 Hardware Interfaces
 (n/a)
 
-#### 3.9.3 Software Interfaces
-The app will be runnable on Android 4.4 and higher. iOS won't be featured at the moment.
+#### 3.8.3 Software Interfaces
+The app will be runnable on Java 17 and higher.  
 
-#### 3.9.4 Communication Interfaces
-The server and hardware will communicate using the http protocol. 
+### 3.9 Licensing Requirements
 
-### 3.10 Licensing Requirements
-
-### 3.11 Legal, Copyright, and Other Notices
-The logo is licensed to the Common Playground Team and is only allowed to use for the application. We do not take responsibilty for any incorrect data or errors in the application.
-
-### 3.12 Applicable Standards
-The development will follow the common clean code standards and naming conventions. Also we will create a definition of d which will be added here as soon as its complete.
+### 3.10 Applicable Standards
+The development will follow the common clean code standards and naming conventions. 
 
 ## 4. Supporting Information
 For any further information you can contact the Common Playground Team or check our [Common Playground Blog](http://commonplayground.wordpress.com). 
