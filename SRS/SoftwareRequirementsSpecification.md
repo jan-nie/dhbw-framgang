@@ -20,12 +20,6 @@
     - [Performance](#34-performance)
     - [Supportability](#35-supportability)
     - [Design Constraints](#36-design-constraints)
-    - [Online User Documentation and Help System Requirements](#37-on-line-user-documentation-and-help-system-requirements)
-    - [Purchased Components](#purchased-components)
-    - [Interfaces](#39-interfaces)
-    - [Licensing Requirements](#310-licensing-requirements)
-    - [Legal, Copyright And Other Notices](#311-legal-copyright-and-other-notices)
-    - [Applicable Standards](#312-applicable-standards)
 - [Supporting Information](#4-supporting-information)
 
 
@@ -122,11 +116,11 @@ This function is the essence of our project. The authorized user gets the possib
 #### 3.1.2 Overview products
 This feature provides a basic overview over all current sessions. All posted sessions are added here. From this overview you can select a session and from there join this session.
 
-[Session overview](./use_cases/UC2_Session_Overview.md)
 
 #### 3.1.3 User role management
 To identify all useres we need an account system. This account system enables us to build important functions such as joining a session, leaving a session or a personalized overview over all sessions (Keeping track of your sessions).
 
+[Inventory management](../use_cases/uc2_user_role_management.md)
 
 #### 3.1.4 Customer management
 The app will provide the possibility to register and log in. This will also make the usability easier when a user wants to manage his sessions, post or join a session because they don't have to enter their mail address every time.
@@ -135,13 +129,12 @@ The app will provide the possibility to register and log in. This will also make
 #### 3.1.5 Sell process
 In case you share your phone, have multiple accounts or just want to be cautius about your privacy you should be able to manually log out.
 
-[Logout](./use_cases/UC5_Logout.md)
+[Inventory management](../use_cases/uc3_sell_process.md)
 
 #### 3.1.6 Changing UI settings
 There is also the possibility to join an existing game session. Therefore, the user can select a specific session.
 
-[Join a session](./use_cases/UC6_Join_Session.md)
-
+[Inventory management](../use_cases/uc4_changing_ui_settings.md)
 
 ### 3.2 Usability
 We plan on designing the user interface as intuitive and self-explanatory as possible to make the user feel as comfortable as possible using the app. Though an FAQ document will be available, it should not be necessary to use it.
