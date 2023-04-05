@@ -37,7 +37,7 @@ A sanity check is performed with all entries. On the one hand, data types are ch
   -	Problems in the user's local network
   -	Database connection not possible
 - Mapping among Architectural Elements<br>	?
-- Reource Management<br>	?
+- Resource Management<br>	?
 - Binding Time<br>	?
 - Choice of Technology:<br>
 	Detect/help/recover from faults:
