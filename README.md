@@ -4,9 +4,11 @@ This repository is for documentation purposes only. Please comment in our wordpr
 
 ## Project / time management
 [YouTrack](https://jan-nie.youtrack.cloud/agiles/131-9/current)  
+&NewLine;
 
 ## Code Repository
 [GitHub code (authorization required)](https://github.com/jan-nie/dhbw-software-engineering)  
+&NewLine;
 
 ## Documentation
 
