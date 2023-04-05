@@ -8,7 +8,7 @@ This repository is for documentation purposes only. Please comment in our wordpr
 
 ## Code Repository
 [GitHub code (authorization required)](https://github.com/jan-nie/dhbw-software-engineering)  
-&NewLine;
+\newline
 
 ## Documentation
 
@@ -18,7 +18,8 @@ This repository is for documentation purposes only. Please comment in our wordpr
 - [Software Architecture Document (SAD)](https://github.com/jan-nie/dhbw-framgang/blob/main/sad/SoftwareArchitectureDocument.md)
 - [Class diagram](https://github.com/jan-nie/dhbw-framgang/blob/main/classes/classdiagram.md)
 - [Use-Case-Realization Specification: Change Corporate Design](https://dhbwse.files.wordpress.com/2022/11/ucrs_corporatedesign.pdf)
-- [Use-Case-Realization Specification: Add Product](https://dhbwse.files.wordpress.com/2022/11/ucrs_addproduct.pdf)
+- [Use-Case-Realization Specification: Add Product](https://dhbwse.files.wordpress.com/2022/11/ucrs_addproduct.pdf)\
+  
 
 ### Midterm handout
 [Midterm Handout](https://github.com/jan-nie/dhbw-framgang/blob/main/Software%20Engineering%20Handout%20Midterm.pdf)
