@@ -81,21 +81,21 @@ Inventory Management System Enterprise software is distributed through our key a
 This section lists use cases or scenarios from the use case model with central functionality of the overall system.
 
 ### 4.1 Use-Case Realizations
-- Use Case 1: [inventory management](../use_cases/uc1_inventory_management.md)
-- Use Case 2: [user role management](../use_cases/uc2_user_role_management.md)
-- Use Case 3: [sell process](../use_cases/uc3_sell_process.md)
-- Use Case 4: [changing ui](../use_cases/uc4_changing_ui_settings.md)
+- Use Case 1: [inventory management](../srs/use_cases/uc1_inventory_management.md)
+- Use Case 2: [user role management](../srs/use_cases/uc2_user_role_management.md)
+- Use Case 3: [sell process](../srs/use_cases/uc3_sell_process.md)
+- Use Case 4: [changing ui](../srs/use_cases/uc4_changing_ui_settings.md)
 
 ## 5 Logical View
 We put the focus on the interfaces. Here we agreed on the MVC model as the architectural basis. All communication takes place via specially defined interfaces. For example, each of our controllers communicates with the view via interfaces.
-Class diagram [here](../week5/classdiagram.md)
+Class diagram [here](../classes/classdiagram.md)
 
 ## 6 Process View
-Sequence digramm: user role management [here](../use_cases/Sequenz_Diagram_User_Role_Management.png) <br>
+Sequence digramm: user role management [here](../srs/use_cases/Sequenz_Diagram_User_Role_Management.png) <br>
 The administrator has the option of creating a new user or adjusting the rights of an existing user. The distribution of rights is done via already defined presets (i.e. a buyer needs the rights to see the stock of goods, but is not allowed to change it). The consistency of the data is ensured via a database. <br> <br>
-Sequence digramm: inventory management [here](../use_cases/sequenzDiagram_inventory.png)<br>
+Sequence digramm: inventory management [here](../srs/use_cases/sequenzDiagram_inventory.png)<br>
 The buyer can open the required window via the GUI and can create products there. The data entered is checked for correctness in the controller and then written to the database. <br> <br>
-Sequence digramm: sell process [here](../use_cases/SequenceDiagramSale2.jpg)<br>
+Sequence digramm: sell process [here](../srs/use_cases/SequenceDiagramSale2.jpg)<br>
 A salesperson can create sales orders via the GUI. The goods are displayed together with the stock. He can then enter the desired quantities and save the order. This order is validated in the controller. If the validation is successful, the stock is updated in the database and the order is saved. 
 
 ## 7 Deployment View
