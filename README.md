@@ -2,14 +2,17 @@
 ## Preamble
 This repository is for documentation purposes only. Please comment in our wordpress blog (link below)!
 &nbsp;  
+&nbsp;
 
 ## Project / time management 📅
 [YouTrack](https://jan-nie.youtrack.cloud/agiles/131-9/current)
 &nbsp;  
+&nbsp;
 
 ## Code Repository
 [GitHub code (authorization required)](https://github.com/jan-nie/dhbw-software-engineering)  
 &nbsp;  
+&nbsp;
 
 ## Documentation
 
@@ -21,10 +24,12 @@ This repository is for documentation purposes only. Please comment in our wordpr
 - [Use-Case-Realization Specification: Change Corporate Design](https://dhbwse.files.wordpress.com/2022/11/ucrs_corporatedesign.pdf)
 - [Use-Case-Realization Specification: Add Product](https://dhbwse.files.wordpress.com/2022/11/ucrs_addproduct.pdf)
 &nbsp;  
+&nbsp;
 
 ### Midterm handout 🗒️
 [Midterm Handout](https://github.com/jan-nie/dhbw-framgang/blob/main/Software%20Engineering%20Handout%20Midterm.pdf)
 &nbsp;  
+&nbsp;
 
 ### Weekly blog posts 📰
 [Framgång Blog](https://dhbwse.wordpress.com/blog/)
