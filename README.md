@@ -2,14 +2,14 @@
 ## Preamble
 This repository is for documentation purposes only. Please comment in our wordpress blog (link below)!
 
-## Project / time management
+## Project / time management 📅
 [YouTrack](https://jan-nie.youtrack.cloud/agiles/131-9/current)  
   
 
 ## Code Repository
 [GitHub code (authorization required)](https://github.com/jan-nie/dhbw-software-engineering)  
-  
-  
+&nbsp;  
+&nbsp;
 
 ## Documentation
 
@@ -22,13 +22,13 @@ This repository is for documentation purposes only. Please comment in our wordpr
 - [Use-Case-Realization Specification: Add Product](https://dhbwse.files.wordpress.com/2022/11/ucrs_addproduct.pdf)  
   
 
-### Midterm handout
+### Midterm handout 🗒️
 [Midterm Handout](https://github.com/jan-nie/dhbw-framgang/blob/main/Software%20Engineering%20Handout%20Midterm.pdf)
 
-### Weekly blog posts
+### Weekly blog posts 📰
 [Framgång Blog](https://dhbwse.wordpress.com/blog/)
 - [Week 10 - Reactivate](https://dhbwse.wordpress.com/2023/04/05/week-10-reactivation/)
-- [Week 9 - Midterm](https://dhbwse.wordpress.com/2022/12/31/midterm/)
+- [Week 9 - Midterm 🎉](https://dhbwse.wordpress.com/2022/12/31/midterm/)
 - [Week 8](https://dhbwse.wordpress.com/2022/12/06/week-8-sad/)
 - [Week 7](https://dhbwse.wordpress.com/2022/11/29/week-7-asr-analysis/)
 - [Week 6](https://dhbwse.wordpress.com/2022/11/22/week-6-live-demo-2/)
