@@ -23,6 +23,7 @@ This repository is for documentation purposes only. Please comment in our wordpr
 - [Class diagram](https://github.com/jan-nie/dhbw-framgang/blob/main/classes/classdiagram.md)
 - [Use-Case-Realization Specification: Change Corporate Design](https://dhbwse.files.wordpress.com/2022/11/ucrs_corporatedesign.pdf)
 - [Use-Case-Realization Specification: Add Product](https://dhbwse.files.wordpress.com/2022/11/ucrs_addproduct.pdf)
+- [Risk Mitigation, Monitoring and Management (RMMM)](https://raw.githubusercontent.com/jan-nie/dhbw-framgang/main/rmmm/Risk%20Management.pdf)
 &nbsp;  
 &nbsp;
 
@@ -33,7 +34,7 @@ This repository is for documentation purposes only. Please comment in our wordpr
 
 ### Weekly blog posts 📰
 [Framgång Blog](https://dhbwse.wordpress.com/blog/)
-- [Week 10 - Reactivate](https://dhbwse.wordpress.com/2023/04/05/week-10-reactivation/)
+- [Week 10 - Reactivate](https://dhbwse.wordpress.com/2023/04/12/week-10-reactivation/)
 - [Week 9 - Midterm 🎉](https://dhbwse.wordpress.com/2022/12/31/midterm/)
 - [Week 8](https://dhbwse.wordpress.com/2022/12/06/week-8-sad/)
 - [Week 7](https://dhbwse.wordpress.com/2022/11/29/week-7-asr-analysis/)
