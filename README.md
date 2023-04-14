@@ -34,6 +34,7 @@ This repository is for documentation purposes only. Please comment in our wordpr
 
 ### Weekly blog posts 📰
 [Framgång Blog](https://dhbwse.wordpress.com/blog/)
+- [Week 11 - Risk Management](https://dhbwse.wordpress.com/2023/04/14/week-11-risk-management/)
 - [Week 10 - Reactivate](https://dhbwse.wordpress.com/2023/04/12/week-10-reactivation/)
 - [Week 9 - Midterm 🎉](https://dhbwse.wordpress.com/2022/12/31/midterm/)
 - [Week 8](https://dhbwse.wordpress.com/2022/12/06/week-8-sad/)
