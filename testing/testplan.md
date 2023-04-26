@@ -1,171 +1,92 @@
-# Test Plan
+# Inventory Management System Enterprise (IM SE)
 
 <Inventory Management System Enterprise>
 Version <1.0>
 
 Revision History
-
-**Date**
-**Version**
-**Description**
-**Author**
-<26/04/2023>
-<1.0>
-<initial setup test plan>
-<Jan Niederhöfer>
-
+| **Date**     | **Version**| **Description**  | **Author** |
+| -------------|-------|---------------------------|-------------- |
+| <26/04/2023> | <1.0> | <initial setup test plan> | Framgång Team |
 
 ## Table of Contents
-
-[1. Introduction](#1.     Introduction)
-
-[1.1 Purpose](#1.1     Purpose)
-
+[1. Introduction](#1-introduction)
+[1.1 Purpose](#12-purpose)
 [1.2 Scope](#1.2     Scope)
-
 [1.3 Intended Audience](#1.3     Intended Audience)
-
 [1.4 Document Terminology and Acronyms](#1.4     Document Terminology and Acronyms)
-
 [1.5 References](#1.5     References)
-
 [1.6 Document Structure](#1.6     Document Structure)
-
 [2. Evaluation Mission and Test Motivation](#2.     Evaluation Mission and Test Motivation)
-
 [2.1 Background](#2.1     Background)
-
 [2.2 Evaluation Mission](#2.2     Evaluation Mission)
-
 [2.3 Test Motivators](#2.3     Test Motivators)
-
 [3. Target Test Items](#3.     Target Test Items)
-
 [4. Outline of Planned Tests](#4.     Outline of Planned Tests)
-
 [4.1 Outline of Test Inclusions](#4.1     Outline of Test Inclusions)
-
 [4.2 Outline of Other Candidates for Potential Inclusion](#4.2     Outline of Other Candidates for Potential Inclusion)
-
 [4.3 Outline of Test Exclusions](#4.3     Outline of Test Exclusions)
-
 [5. Test Approach](#5.     Test Approach)
-
 [5.1 Initial Test-Idea Catalogs and Other Reference Sources](#5.1     Initial Test-Idea Catalogs and Other Reference Sources)
-
 [5.2 Testing Techniques and Types](#5.2     Testing Techniques and Types)
-
 [5.2.1 Data and Database Integrity Testing](#5.2.1     Data and Database Integrity Testing)
-
 [5.2.2 Function Testing](#5.2.2     Function Testing)
-
 [5.2.3 Business Cycle Testing](#5.2.3     Business Cycle Testing)
-
 [5.2.4 User Interface Testing](#5.2.4     User Interface Testing)
-
 [5.2.5 Performance Profiling](#5.2.5     Performance Profiling)
-
 [5.2.6 Load Testing](#5.2.6     Load Testing)
-
 [5.2.7 Stress Testing](#5.2.7     Stress Testing)
-
 [5.2.8 Volume Testing](#5.2.8     Volume Testing)
-
 [5.2.9 Security and Access Control Testing](#5.2.9     Security and Access Control Testing)
-
 [5.2.10 Failover and Recovery Testing](#5.2.10     Failover and Recovery Testing)
-
 [5.2.11 Configuration Testing](#5.2.11     Configuration Testing)
-
 [5.2.12 Installation Testing](#5.2.12     Installation Testing)
-
 [6. Entry and Exit Criteria](#6.     Entry and Exit Criteria)
-
 [6.1 Test Plan](#6.1     Test Plan)
-
 [6.1.1 Test Plan Entry Criteria](#6.1.1     Test Plan Entry Criteria)
-
 [6.1.2 Test Plan Exit Criteria](#6.1.2     Test Plan Exit Criteria)
-
 [6.1.3 Suspension and Resumption Criteria](#6.1.3     Suspension and Resumption Criteria)
-
 [6.2 Test Cycles](#6.2      Test Cycles)
-
 [6.2.1 Test Cycle Entry Criteria](#6.2.1     Test Cycle Entry Criteria)
-
 [6.2.2 Test Cycle Exit Criteria](#6.2.2     Test Cycle Exit Criteria)
-
 [6.2.3 Test Cycle Abnormal Termination](#6.2.3     Test Cycle Abnormal Termination)
-
 [7. Deliverables](#7.     Deliverables)
-
 [7.1 Test Evaluation Summaries](#7.1     Test Evaluation Summaries)
-
 [7.2 Reporting on Test Coverage](#7.2     Reporting on Test Coverage)
-
 [7.3 Perceived Quality Reports](#7.3     Perceived Quality Reports)
-
 [7.4 Incident Logs and Change Requests](#7.4     Incident Logs and Change Requests)
-
 [7.5 Smoke Test Suite and Supporting Test Scripts](#7.5     Smoke Test Suite and Supporting Test Scripts)
-
 [7.6 Additional Work Products](#7.6      Additional Work Products)
-
 [7.6.1 Detailed Test Results](#7.6.1     Detailed Test Results)
-
 [7.6.2 Additional Automated Functional Test Scripts](#7.6.2     Additional Automated Functional Test Scripts)
-
 [7.6.3 Test Guidelines](#7.6.3     Test Guidelines)
-
 [7.6.4 Traceability Matrices](#7.6.4     Traceability Matrices)
-
 [8. Testing Workflow](#8.     Testing Workflow)
-
 [9. Environmental Needs](#9.     Environmental Needs)
-
 [9.1 Base System Hardware](#9.1     Base System Hardware)
-
 [9.2 Base Software Elements in the Test Environment](#9.2     Base Software Elements in the Test Environment)
-
 [9.3 Productivity and Support Tools](#9.3     Productivity and Support Tools)
-
 [9.4 Test Environment Configurations](#9.4     Test Environment Configurations)
-
 [10. Responsibilities, Staffing and Training Needs](#10.     Responsibilities, Staffing, and Training Needs)
-
 [10.1 People and Roles](#10.1     People and Roles)
-
 [10.2 Staffing and Training Needs](#10.2     Staffing and Training Needs)
-
 [11. Iteration Milestones](#11.     Iteration Milestones)
-
 [12. Risks, Dependencies, Assumptions and Constraints](#12.     Risks, Dependencies, Assumptions, and Constraints)
-
 [13. Management Process and Procedures](#13.     Management Process and Procedures)
-
 [13.1 Measuring and Assessing the Extent of Testing](#13.1     Measuring and Assessing the Extent of Testing)
-
 [13.2 Assessing the Deliverables of this Test Plan](#13.2     Assessing the Deliverables of this Test Plan)
-
 [13.3 Problem reporting, Escalation and Issue Resolution](#13.3     Problem Reporting, Escalation, and Issue Resolution)
-
 [13.4 Managing Test Cycles](#13.4     Managing Test Cycles)
-
 [13.5 Traceability Strategies](#13.5     Traceability Strategies)
-
 [13.6 Approval and Signoff](#13.6      Approval and Signoff)
 
 
-
 ## 1. Introduction
-===================
 
 ### 1.1 Purpose
----------------
 
 The purpose of the Iteration Test Plan is to gather all the information necessary to plan and control the test effort for the given iteration. It describes the approach to the testing of the software and is the top-level plan generated and used by the managers to direct the test effort
 
-This _Test Plan_ document for the <Project Name> supports the following objectives:
+This _Test Plan_ document for the Inventory Management System Enterprise supports the following objectives:
 
 • \[Identifies the items that should be targeted by the tests.
 
@@ -179,14 +100,12 @@ This _Test Plan_ document for the <Project Name> supports the following objectiv
 
 
 ### 1.2 Scope
--------------
 
 \[Describe the levels of testing (for example, Unit, Integration, or System, and the types of testing (such as Functionality, Usability, Reliability, Performance, and Supportability) that will be addressed by this **Test Plan**. It is also important to provide a general indication of significant areas that will be **excluded** from scope, especially where the intended audience might otherwise reasonably assume the inclusion of those areas.
 
 **Note**: Avoid placing detail here that you will repeat in sections 3, Target Test Items, and 4, Outline of Planned Tests.\]
 
 ### 1.3 Intended Audience
--------------------------
 
 \[Provide a brief description of the audience for whom you are writing the **Test Plan**. This helps readers of your document identify whether it is a document intended for their use, and helps prevent the document from being used inappropriately.
 
@@ -200,7 +119,6 @@ This section should only be about three to five paragraphs in length.\]
 \[This subsection provides the definitions of any terms, acronyms, and abbreviations required to properly interpret the Test Plan. Avoid listing items that are generally applicable to the project as a whole and that are already defined in the project's Glossary. Include a reference to the project's Glossary in the References section.\]
 
 ### 1.5 References
-------------------
 
 \[This subsection provides a list of the documents referenced elsewhere within the Test Plan. Identify each document by title, version (or report number if applicable), date, and publishing organization or original author. Avoid listing documents that are influential but not directly referenced. Specify the sources from which the "official versions" of the references can be obtained, such as intranet UNC names or document reference codes. This information may be provided by reference to an appendix or to another document.\]
 
