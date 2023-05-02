@@ -5,10 +5,13 @@
 This section provides an overview of the software testing process and the scope of the testing activities.
 
 ## Test Strategy
-This section describes the overall approach to testing, including the testing methodology, testing types, and testing techniques used. Highlight which automatic testing tools/frameworks are used for your project.
+/*We have implemented functional and non-functional test types so far. Functional test types include unit tests, which are an example of black box testing technique, as they only check for equality of output variables with predefined parameters.*/
+JUnit is a framework for unit testing in Java programming. It allows writing and running automated tests, exception testing, and tracking and analyzing test results. By using JUnit, we can ensure that the code is reliable, bug-free, and meets the requirements of our end users.
+We also want to implement the TestFX framework for the GUI, which tests our graphical user interface.
 
 ## Test Plan
-This section outlines the specific testing tasks, timelines, and resources required to achieve the testing objectives.
+/*This section outlines the specific testing tasks, timelines, and resources required to achieve the testing objectives.*/
+Our JUnit tests currently mainly test the functionalities related to the database. Internally, we have agreed that unit tests will be run before each merge and that they must pass. Resources that we need to achieve the test goals include, for example, csv files that contain data to write to the database.
 
 ## Test Cases
 This section details the specific test cases that were executed, including their pass/fail status and any defects found during testing. (You may link to the repository of your use cases.)
