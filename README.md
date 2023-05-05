@@ -34,6 +34,7 @@ This repository is for documentation purposes only. Please comment in our wordpr
 
 ### Weekly blog posts 📰
 [Framgång Blog](https://dhbwse.wordpress.com/blog/)
+- [Week 14 - Testing](https://dhbwse.wordpress.com/2023/05/05/week-14-testing/)
 - [Week 13 - Weekly Progress](https://dhbwse.wordpress.com/2023/05/02/week-13-weekly-progress/)
 - [Week 12 - Clean Code](https://dhbwse.wordpress.com/2023/04/23/week-12-clean-code/)
 - [Week 11 - Risk Management](https://dhbwse.wordpress.com/2023/04/14/week-11-risk-management/)
