@@ -1,5 +1,3 @@
-
-
 # MIN. REQUIREMENTS
 ## Introduction
 This section provides an overview of the software testing process and the scope of the testing activities.
@@ -7,11 +5,16 @@ This section provides an overview of the software testing process and the scope 
 ## Test Strategy
 /*We have implemented functional and non-functional test types so far. Functional test types include unit tests, which are an example of black box testing technique, as they only check for equality of output variables with predefined parameters.*/
 JUnit is a framework for unit testing in Java programming. It allows writing and running automated tests, exception testing, and tracking and analyzing test results. By using JUnit, we can ensure that the code is reliable, bug-free, and meets the requirements of our end users.
+We use SonarQube as a static code analysis tool to perform security scans to ensure that potential vulnerabilities and threats in the code are identified and fixed as quickly as possible. It also measures code quality against various metrics and standards, allowing code smells to be removed. This makes the code easier to maintain and more secure, thus fulfilling the Security Testing test strategy.
+In addition, we have implemented in Maven package that checks all dependencies for known vulnerabilities and security holes. This way we increase the security of our code and follow the testing strategy Security Testing.
 We also want to implement the TestFX framework for the GUI, which tests our graphical user interface.
+Finally, we pursue the strategy of acceptance testing by having our software operated by human testers. They provide feedback on unusual behavior, errors, the degree of usability (intuitive handling) and suggestions for improvement.
 
 ## Test Plan
 /*This section outlines the specific testing tasks, timelines, and resources required to achieve the testing objectives.*/
-Our JUnit tests currently mainly test the functionalities related to the database. Internally, we have agreed that unit tests will be run before each merge and that they must pass. Resources that we need to achieve the test goals include, for example, csv files that contain data to write to the database.
+Our JUnit tests currently mainly test the functionalities related to the database. In the future, we also want to test the UI as well as the main methods. 
+By implementing Actions in Github, we run two workflows every time we merge with the main branch. One workflow runs the dependency check and another workflow runs our testing. The individual workflows must complete successfully, otherwise the merge is not possible.
+The resources we need to achieve the test goals include, for example, csv files that contain data to be written to the database. Also, the testers who will test our software as part of the acceptance testing. The unit tests require the underlying methods and classes that will be tested.
 
 ## Test Cases
 This section details the specific test cases that were executed, including their pass/fail status and any defects found during testing. (You may link to the repository of your use cases.)
