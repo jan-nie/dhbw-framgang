@@ -51,10 +51,13 @@ After we have successfully packaged our Java application into an executable file
 
 By performing this manual process with Maven and the Assembly plugin, we can develop our Java program into an executable application package for Continuous Delivery. It is important to ensure that this step is integrated into the overall CI/CD pipeline process to ensure smooth and automated application deployment.
 <br />  
-<br />  
-<br />  
-<br />  
 
+The following graphic illustrates the CI/CD pipeline that we use as part of our software development.  
+<br />  
+<img src="cicd-pipeline.jpg" alt="cicd pipeline" width="750">
+<br />  
+<br />  
+<br />  
 
 
 
