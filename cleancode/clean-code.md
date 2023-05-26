@@ -8,3 +8,75 @@ Clean Code refers to a programming style characterized by readability, clarity a
 <br />  
 <br />  
 
+## Implementation of clean code principles
+The following sections explain some of the principles of clean code that were considered in the project and can be found in the X1 and X2 classes. By analyzing the code, it becomes clear how these principles were successfully applied to improve the readability, maintainability and quality of the code.
+<br />  
+<br />  
+
+### Compliance with naming conventions
+To ensure better readability of the code, consistent naming conventions were used in our software project. Variables, functions, and classes were named in meaningful ways to clearly communicate intentions and intended uses. For example, descriptive variable names such as "customerName" were used instead of generic names such as "x".
+<br />  
+<br />  
+
+### Separation of responsibilities
+To implement the Single Responsibility Principle (SRP), functions and classes were designed to perform only one clear task at a time. By separating responsibilities, the code became more modular and easier to maintain. For example, one class was created for database access, while another class was responsible for product management.
+<br />  
+<br />  
+
+### Writing short and understandable functions
+Long and cluttered functions make code difficult to read and maintain. As part of the clean code approach, functions in our software project were reduced to their essence. By breaking down complex functions into smaller, abstract parts, the code became clearer and easier to understand. Complex functions were divided into auxiliary functions to improve readability.
+<br />  
+<br />  
+
+### Regular refactoring
+An important aspect of Clean Code is continuously refactoring the code to improve it and reduce code smells. In our project, time was regularly scheduled for refactoring to clean up the code and maintain quality in the long run. This involved removing duplications, deleting unnecessary code, and introducing better abstractions.
+<br />  
+<br />  
+
+### Use of versioning and source control
+A solid versioning system and the use of source control tools allowed the development team to effectively manage code and track changes. This made it easier to identify and fix bugs and efficiently manage different versions of the code.
+<br />  
+<br />  
+
+### Peer code reviews
+Peer code reviews were conducted regularly to ensure that clean code principles were followed. Collaboration and feedback from team members helped identify potential code smells and opportunities for improvement. This contributed to continuous improvement in code quality.
+<br />  
+<br />  
+
+### Use of coding conventions
+The use of coding conventions, or uniform formatting and style guidelines, helped create consistent and easy-to-read code. Consistent indentation, whitespace, bracket placement, and naming conventions ensured that code could be more easily understood and maintained by different developers.
+<br />  
+<br />  
+
+### Use of exception handling
+Clean handling of exceptions and errors in code is an important aspect of Clean Code. Instead of using generic catch blocks for exceptions, specific exception handlers were implemented for different scenarios. This made error handling more precise and increased the maintainability of the code.
+<br />  
+<br />  
+
+### Using automated tests
+The implementation of junit tests supported the implementation of clean code. By creating automated tests, code smells were detected and fixed early. Tests were considered an integral part of the development process to ensure code stability and quality.
+<br />  
+<br />  
+
+### Use of comments and documentation
+Targeted comments and documentation were used to better understand the code and explain its functionality. This helped developers see through the code more quickly and facilitated maintenance. However, comments were used sparingly to avoid redundancy and unnecessary complexity.
+<br />  
+<br />  
+
+### Avoiding Magic Numbers
+Instead of using hard-coded numeric values (called magic numbers) directly in the code, they were replaced with named constants or variables. This made the code more readable and understandable. For example, instead of "if (status == 1)", "if (status == STATUS_ACTIVE)" was used, making the intent clearer.
+<br />  
+<br />  
+
+### Avoiding Dead Code
+Unused code, also known as dead code, can affect code readability and maintainability. As part of the clean code implementation, unused functions, variables or classes were identified and removed. This made the code leaner and more manageable.
+<br />  
+<br />  
+
+### Use of logging
+The use of the logging framework log4j2 helped provide the code with meaningful and helpful log data. This made it easier to identify and fix potential errors or unexpected conditions in the code. Logging supported maintainability and enabled better tracking of events in the system.
+<br />  
+<br />  
+
+## Conclusion
+The implementation of Clean Code in the software project has significantly contributed to the improvement of code quality. By the application of the described paradigms and principles the number of the Code Smells could be reduced significantly. The readability, maintainability and extensibility of the code were significantly improved.
