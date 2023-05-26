@@ -24,6 +24,7 @@ This repository is for documentation purposes only. Please comment in our wordpr
 - [Use-Case-Realization Specification: Change Corporate Design](https://dhbwse.files.wordpress.com/2022/11/ucrs_corporatedesign.pdf)
 - [Use-Case-Realization Specification: Add Product](https://dhbwse.files.wordpress.com/2022/11/ucrs_addproduct.pdf)
 - [Risk Mitigation, Monitoring and Management (RMMM)](https://raw.githubusercontent.com/jan-nie/dhbw-framgang/main/rmmm/Risk%20Management.pdf)
+- [Clean Code](https://github.com/jan-nie/dhbw-framgang/blob/main/cleancode/clean-code.md)
 - [Metrics](https://github.com/jan-nie/dhbw-framgang/blob/main/metrics/metrics.md)
 - [CI/CD](https://github.com/jan-nie/dhbw-framgang/blob/main/cicd/cicd.md)
 &nbsp;  
