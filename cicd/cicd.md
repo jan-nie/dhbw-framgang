@@ -1,7 +1,7 @@
 # Continuous Integration/Continuous Delivery (CI/CD)
 
 ## Continuous Integration
-As a development team, we face the consistent challenge of delivering high-quality software quickly and efficiently. To meet these requirements, we have developed a custom CI/CD pipeline based on GitHub Actions. In this blog post, we will proudly share our experience with three GitHub Actions that automate build, unit testing, and dependency checking. We will talk about the benefits we have achieved through this pipeline and how it has improved our work as a development team.
+As a development team, we face the consistent challenge of delivering high-quality software quickly and efficiently. To meet these requirements, we have developed a custom CI/CD pipeline based on GitHub Actions. In this blog post, we will proudly share our experience with three GitHub Actions<sup>(1)</sup> that automate build, unit testing, and dependency checking. We will talk about the benefits we have achieved through this pipeline and how it has improved our work as a development team.
 <br />  
 <br />  
 
@@ -87,3 +87,5 @@ The CI/CD pipeline enables software projects to scale efficiently. By automating
 <br />  
 <br />  
 
+-----
+<sup>(1)</sup> Due to the large number of commits in the past few days, we have reached the limit of our free contingent of Github workflows. Therefore, this feature will no longer be available to us for the next 30 days, which is why we had to disable the workflows.
