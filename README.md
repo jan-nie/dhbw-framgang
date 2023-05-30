@@ -27,6 +27,7 @@ This repository is for documentation purposes only. Please comment in our wordpr
 - [Clean Code](https://github.com/jan-nie/dhbw-framgang/blob/main/cleancode/clean-code.md)
 - [Metrics](https://github.com/jan-nie/dhbw-framgang/blob/main/metrics/metrics.md)
 - [CI/CD](https://github.com/jan-nie/dhbw-framgang/blob/main/cicd/cicd.md)
+- [Technical Review](https://github.com/jan-nie/dhbw-framgang/blob/main/technical/technical-review.md)
 &nbsp;  
 &nbsp;
 
@@ -37,6 +38,7 @@ This repository is for documentation purposes only. Please comment in our wordpr
 
 ### Weekly blog posts 📰
 [Framgång Blog](https://dhbwse.wordpress.com/blog/)
+- [Week 17 - Technical Review](https://dhbwse.wordpress.com/2023/05/30/week-17-technical-review-of-csv-export-function/)
 - [Week 16 - CI/CD](https://dhbwse.wordpress.com/2023/05/17/week-16-ci-cd/)
 - [Week 15 - Metrics](https://dhbwse.wordpress.com/2023/05/15/week-15-metrics/)
 - [Week 14 - Testing](https://dhbwse.wordpress.com/2023/05/05/week-14-testing/)
