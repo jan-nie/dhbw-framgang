@@ -97,4 +97,18 @@ The Model-View-Controller (MVC) pattern is a popular architectural design patter
 
 By separating the application into these three components, the MVC pattern promotes maintainability, code reusability, and testability. It allows developers to work on different parts of the application independently, making it easier to understand, modify, and extend the codebase.<br>
 In our case, we utilize interfaces to facilitate communication between the View and Controllers, ensuring a decoupled and flexible architecture. The Controllers interact with the Models through direct access, enabling seamless data manipulation and processing.
+<br/>  
+<br/>  
+
+The following graphic illustrates the implementation of the MVC model in our project.
+<br/>  
+
+<img src="mvc.jpg" alt="mvc model" width="750">
+<br/>  
+
+In our software project, we used the MVC (Model-View-Controller) model to clearly structure and separate the functionalities. In the view component, we use FXML files to design the user interface and create a responsive GUI. The Controller component consists of several classes such as the IMSESceneController, which controls the interactions between the View and the Model, the DBController, which manages the database connection and operations, and the CSVController, which is responsible for importing and exporting data to the CSV format.
+
+The Model includes several classes, including the DBModel, which defines the database structure and operations, the CSVImportModel, which supports the import of data from CSV files, and the CSVExportModel, which enables the export of data to CSV format. These Model classes represent the business logic and data processing.
+
+In addition to the division into Model, View and Controller, we use a database to store the persistent data. The database allows us to store and retrieve information efficiently, while the MVC model facilitates clear separation of responsibilities and code reusability. This division of the MVC model in our software project contributes to the modularity, maintainability and extensibility of the application.
 
