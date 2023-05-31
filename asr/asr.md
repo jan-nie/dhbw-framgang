@@ -1,4 +1,6 @@
 # Summary of architectural decisions and design patterns for IMSE
+<br/>  
+<br/>  
 
 ## 1. Tactics IMSE will practice
 ### 1.1 Quality attribute scenarios: Availability
@@ -7,18 +9,22 @@
 | - | - | - | - | - | - |
 | Software of MongoDB | server unresponsive | Database | internet connection breaks during user input | inform user | within 1 minute |
 | Software | server unresponsive | Firewall | normal operation | activate VPN | 20 minutes |
-
+<br/>  
+<br/>  
 
 ### 1.2 Tactics
-- __Detect Faults__: 
-To detect errors, we use a ping/echo test. With its help, the database is pinged at regular intervals and an echo is returned if successful. This helps to detect problems with the connection or the database servers. In addition, all operations are documented in a log file. For example, specific error messages are created as part of exception handling and saved in the log.
+- __Detect Faults__:  
+In order to identify and detect errors, we employ a ping/echo test mechanism. This involves sending regular pings to the database and receiving an echo response if the communication is successful. This technique enables us to quickly identify any issues with the connection or the database servers. Additionally, we maintain a comprehensive log file that records all operations performed. As part of our exception handling approach, specific error messages are generated and stored in the log for future reference.  
+<br/>  
 
-- __Recover from Faults__:
-If the Internet connection is interrupted while the user is entering data, they are stored in a local cache and can be transferred if the connection is stable.
+- __Recover from Faults__:  
+In case the Internet connection is interrupted while a user is entering data, we want to implement a solution to store the data in a local cache. This allows us to retain the information even if the connection is unstable. Once the connection is restored, the data can be seamlessly transferred from the cache to the database so that no important user input is lost.  
+<br/>  
 
-- __Prevent Faults__:
-A sanity check is performed with all entries. On the one hand, data types are checked and adjusted if necessary to prevent errors during runtime. On the other hand, the input data is not sent directly to the database but processed using the database interfaces to prevent injections.
-
+- __Prevent Faults__:  
+We have implemented a series of measures to proactively prevent faults and errors. Firstly, we perform a sanity check on all entries to ensure their validity. This includes checking and adjusting data types if necessary, thereby mitigating the risk of runtime errors. Additionally, we employ secure practices by processing input data through database interfaces rather than directly sending it to the database. This helps prevent potential injections and enhances the overall security of the system.  
+<br/>  
+<br/>  
 
 ### 1.3 Checklist Availability
 - Allocation of Responsibilities:<br>
@@ -42,11 +48,14 @@ A sanity check is performed with all entries. On the one hand, data types are ch
 - Choice of Technology:<br>
 	Detect/help/recover from faults:
 	Event loggers
-
+<br/>  
+<br/>  
 
 ## 2. Architecture decisions and concrete design patterns IMSE will follow
 ### 2.1 Architecture decisions
 - Backend and frontend are completely separated from each other (communication takes place only via defined interfaces)
+<br/>  
+<br/>  
 
 ### 2.2 Design patterns
 - The backend will use the MVC pattern to further segment the functionalities.
