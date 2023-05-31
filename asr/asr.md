@@ -46,8 +46,11 @@ We have implemented a series of measures to proactively prevent faults and error
 - Resource Management<br>	?
 - Binding Time<br>	?
 - Choice of Technology:<br>
-	Detect/help/recover from faults:
-	Event loggers
+	Detect: In this step, you identify and detect the problem or issue. This typically involves recognizing symptoms, error messages, or unexpected behavior in your program or system. The goal is to understand what is not working correctly.    <br><br>
+	Help: Once you have detected the problem, the next step is to seek help or assistance to understand the issue better. This can involve consulting documentation, online resources, forums, or asking for assistance from colleagues or experts in the field. The idea is to gather information and insights that can help you find a solution.
+
+	Recover: Once you have gathered the necessary information and assistance, you can proceed to recover from the problem. This might involve fixing a bug in your code, implementing a workaround, adjusting configurations, or making changes to your system. The goal is to resolve the issue and restore normal operation.
+	<br>We use event loggers to achieve this goal.
 <br/>  
 <br/>  
 
