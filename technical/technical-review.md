@@ -95,6 +95,7 @@ As part of the technical review performed, a combination of methods was used to 
 <br />  
 
 ### Action Items
+For each of these identified aspects, we created action items to be able to optimize the issues until the end of the project. The following is a list of the action items, each of which is assigned to a key point in Outcome.  
 - **Consistency**: Jan until 04.06.2023
 - **Refactoring**: Nicolai until 04.06.2023
 - **Permissions**: Nicolai until 04.06.2023
