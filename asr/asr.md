@@ -68,5 +68,5 @@ We have implemented a series of measures to proactively prevent faults and error
     Controller: The Controller component acts as a mediator between the Model and the View. It receives user input from the View and translates it into actions that modify the state of the Model or update the View accordingly. The Controller handles user interactions, such as button clicks or form submissions, and triggers the appropriate actions in the Model. It ensures that the user input is validated and processed correctly. Additionally, the Controller may update the View based on changes in the Model, ensuring that the user interface reflects the current state of the application.
 <br><br>
 By separating the application into these three components, the MVC pattern promotes maintainability, code reusability, and testability. It allows developers to work on different parts of the application independently, making it easier to understand, modify, and extend the codebase.<br>
-In our case we use interfaces for the communication between the different sections.
+In our case, we utilize interfaces to facilitate communication between the View and Controllers, ensuring a decoupled and flexible architecture. The Controllers interact with the Models through direct access, enabling seamless data manipulation and processing.
 
