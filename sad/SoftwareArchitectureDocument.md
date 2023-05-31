@@ -54,7 +54,7 @@ This software architecture document is divided into 11 chapters and provides inf
 ## 2. Architectural Representation
 The implementation of this project uses the MVC Pattern.
 As a result, the model (data model), view (user interface), and controller (which manages the application) are distinct. The following link has more information: <br>
-[inventory management](../asr/asr.md#2.2-design-patterns)
+[ASR](../asr/asr.md#22-design-patterns)
 
 
 ## 3. Architectural Goals and Constraints
