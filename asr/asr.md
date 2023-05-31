@@ -55,6 +55,11 @@ We have implemented a series of measures to proactively prevent faults and error
 ## 2. Architecture decisions and concrete design patterns IMSE will follow
 ### 2.1 Architecture decisions
 - Backend and frontend are completely separated from each other (communication takes place only via defined interfaces)
+- Fault-Tolerant Design: Employ fault-tolerant techniques and architectural patterns to handle failures gracefully. This includes designing components to be resilient to faults and implementing error handling.
+
+- Distributed Systems: Consider building the system using a distributed architecture. Distributed systems allow for scalability and fault tolerance by breaking the application into smaller, loosely coupled services. Each service can run nearly independently and be deployed and scaled separately, increasing availability by reducing the impact of failures and allowing for better resource allocation.
+
+- Monitoring and Alerting: Implement robust monitoring and alerting mechanisms to detect failures or performance issues promptly. This includes setting up logging, health checks, and performance metrics to track the system's behavior. By closely monitoring the system, you can proactively address any potential problems and ensure quick recovery or mitigation of issues.
 <br/>  
 <br/>  
 
