@@ -97,28 +97,35 @@ You can find more information at the following link: [Architecture Significant R
 
 ## 3. Architectural Goals and Constraints
 ### 3.1 Security 
-The system must be secured so that no unauthorized person can manipulate or view data.
-The application must implement basic security behaviors:
-- Authentication: Login using at least a user name and a password
-- Authorization: according to their profile, users must be granted or not to perform some specific actions (administrator, warehouse logistician, etc.)
-<br/>  
-<br/>  
+The security of the system is a critical aspect that must be ensured to protect the integrity and confidentiality of the data. The application incorporates essential security measures to prevent unauthorized access and manipulation of data.
 
-For internet access, the following requirements are mandatory
-- Confidentiality: sensitive data must be encrypted (all user data is stored encrypted in the database)
-- Data integrity : data sent across the network cannot be modified.
-- Auditing: all sensitive actions can be logged
+- **Authentication**  
+    Authentication is enforced through a login process that requires users to provide a username and password. This ensures that only authorized individuals can access the system, adding an extra layer of protection.
+
+- **Authorization**  
+    Authorization is implemented based on user profiles, such as administrator or warehouse logistician. Users are granted specific permissions according to their assigned roles, allowing them to perform relevant actions while restricting unauthorized actions.
+
+- **Confidentiality**  
+    For internet access, the system imposes mandatory security requirements. Confidentiality is maintained by encrypting sensitive data, including all user data stored in the database. This encryption safeguards the information even if unauthorized access to the database occurs.
+
+- **Data integrity**  
+    Data integrity is a crucial aspect and the system ensures that data sent across the network cannot be modified or tampered with. This prevents the risk of unauthorized alterations during transmission.
+
+- **Auditing**  
+    To enhance security further, the system includes auditing capabilities. All sensitive actions are logged, allowing for accountability and the ability to track any suspicious activities.
+
 <br/>  
 <br/>  
 
 ### 3.2 Persistence
-Data persistence will be addressed using a non-relational database. <br>
-The availability of the system is by nature an important requirement and in our case also a quality feature, because it is a management tool for the sale of goods of other companies. To ensure availability, we use several tactics, which are explained in [Chapter 11](#11-quality).
+Data persistence is addressed by utilizing a non-relational database. This choice of database technology allows for efficient storage and retrieval of data while accommodating the specific requirements of the system.  
+
+The availability of the system is crucial, as it serves as a management tool for the sale of goods of other companies. Various tactics are employed to ensure the availability of the system, which are detailed in [Chapter 11](#11-quality) of this document. These tactics aim to minimize downtime and ensure continuous access to the system for users.
 <br/>  
 <br/>  
 
 ### 3.3 Distribution
-Inventory Management System Enterprise software is distributed through our key account managers in face-to-face policy. Interested companies can contact us and negotiate the license conditions with us.
+The Inventory Management System Enterprise software is distributed through our key account managers using a face-to-face policy. Interested companies can directly engage with our account managers to discuss and negotiate the license conditions. This approach allows for personalized interactions and ensures that the software is tailored to meet the specific needs of each client.
 <br/>  
 <br/>  
 
@@ -149,7 +156,7 @@ The overview of all already existing classes can be found in the following graph
 <br/>  
 
 ## 6 Process View
-### 6.1 Sequence diagramm: User Role Management
+### 6.1 Sequence diagram: User Role Management
 <br/>  
 <img src="../srs/use_cases/Sequenz_Diagram_User_Role_Management.png" alt="sequence diagram user role management" width="750">
 <br/>  
@@ -161,7 +168,7 @@ To maintain data integrity and consistency, we rely on a reliable database. The 
 <br/>  
 <br/>  
 
-### 6.2 Sequence diagramm: Inventory Management
+### 6.2 Sequence diagram: Inventory Management
 <br/>  
 <img src="../srs/use_cases/sequenzDiagram_inventory.png" alt="sequence diagram inventory management" width="750">
 <br/>  
@@ -176,7 +183,7 @@ The sequence diagram illustrates the flow of interactions between the buyer, GUI
 <br/>  
 <br/>  
 
-### 6.3 Sequence diagramm: Sell Process
+### 6.3 Sequence diagram: Sell Process
 <br/>  
 <img src="../srs/use_cases/SequenceDiagramSale2.jpg" alt="sequence diagram sell process" width="750">
 <br/>  
@@ -217,21 +224,23 @@ The following Entity-Relationship diagram provides a visual representation of th
 <br/>  
 
 ## 10 Size and Performance
-As indicated in the project vision, we are developing the software for desktop devices with the common operating systems Windows, Linux and macOS. On the other hand, porting to portable devices such as tablets and smartphones running iOS and Android is not planned.
-We also use multiple threads for parallel task processing. While the user interacts with the software, background processes are running, which concern availability, for example (see Section 11).
+The size and performance of the software are critical aspects that contribute to its overall effectiveness and user satisfaction. Our development focus centers on desktop devices, specifically targeting the widely used operating systems such as Windows, Linux, and macOS. Our vision aligns with providing a seamless experience for users on these platforms, optimizing the software's performance and ensuring compatibility with their respective environments. However, at this stage, we do not have plans to extend the software to portable devices such as tablets and smartphones running iOS and Android.  
+
+To enhance performance and efficiency, we employ multiple threads for parallel task processing. By leveraging the power of concurrency, we ensure that background processes are efficiently executed alongside user interactions. This approach allows for optimal resource utilization, enabling the software to handle various tasks simultaneously without compromising responsiveness or causing delays. For instance, while users interact with the software, critical background processes related to availability, as mentioned in chapter 11, are continuously running. This ensures that essential functionalities, such as the ping/echo test and data synchronization, are seamlessly performed in the background, further enhancing the overall performance and responsiveness of the system.  
+
+Our commitment to size and performance considerations reflects our dedication to delivering a robust and efficient software solution for desktop devices. By focusing on these aspects, we aim to provide users with a reliable and high-performing application that meets their expectations and contributes to their productivity.
 <br/>  
 <br/>  
 
 ## 11 Quality
-We rely on three eminent tactics for the quality feature Availability: 
-- **Detect Faults**:  
-    One of the most important functions is the ping/echo test, whereby the database server is pinged at regular intervals in the background to check availability. In addition, all warnings, error messages and exception outputs are saved in a log file.  
-    <br/>  
+Ensuring the quality of the system is of utmost importance, and we employ three significant tactics to enhance the availability feature:
 
-- **Recover from Faults**:  
-    If the internet connection fails, entered data is cached locally and synchronized with the database at the next opportunity.  
-    <br/>  
+- **Detect Faults**  
+    To monitor the availability of the database server, we implement a vital function called the ping/echo test. This test periodically sends a ping to the database server in the background, allowing us to detect any potential issues with its availability. Additionally, we meticulously save all warning messages, error messages, and exceptions in a dedicated log file. This comprehensive logging enables us to track and analyze any faults that may occur, facilitating prompt troubleshooting and resolution.
 
-- **Prevent Faults**:  
-    User input is processed as part of sanity checking. Data types are checked and adjusted if necessary, and the connection to the database is made exclusively using the interfaces to prevent SQL injections.
+- **Recover from Faults**  
+    In the event of an internet connection failure, we will implement a robust mechanism to ensure data integrity. When a connection disruption occurs, any data entered by users is cached locally to prevent data loss. The cached data is then synchronized with the database as soon as the connection is reestablished, ensuring that no valuable information is compromised. This approach safeguards the user experience and allows for seamless data transmission, even during intermittent network interruptions.
+
+- **Prevent Faults**  
+    We prioritize the prevention of faults by incorporating various measures into our system design. A crucial aspect of this is the implementation of sanity checking for user input. This process involves validating and sanitizing user-provided data to ensure its accuracy, integrity, and compatibility with the system's requirements. We perform comprehensive data type checks and make necessary adjustments to guarantee the reliability and consistency of the input. Moreover, to mitigate the risk of SQL injections and other security vulnerabilities, we strictly enforce the usage of interfaces for database connections. This practice prevents any unauthorized manipulation of the database through malicious SQL queries, bolstering the overall security and stability of the system.
 
