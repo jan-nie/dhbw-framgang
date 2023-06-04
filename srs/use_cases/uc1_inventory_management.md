@@ -12,9 +12,13 @@ In the case of modifying product properties, the user can select a specific prod
 Furthermore, this use case also allows the user to delete products. The user can select a product either from the product list or by searching for it based on certain criteria. Once the product is selected, the user can initiate the deletion process. The system can then prompt for confirmation to ensure the user's intention to delete the product. Upon confirmation, the product will be permanently removed from the system, including its associated data.
 
 Overall, this use case empowers the user to have complete control over the product management process, facilitating the creation, modification, and deletion of products as per their needs and preferences.
+<br/>  
+<br/>  
 
 ## 1.2 Mockup
 ![Mockup inventory management](./mockup_usecase1.jpg?raw=true)
+<br/>  
+<br/>  
 
 
 # 2. Flow of Events
@@ -24,15 +28,23 @@ Overall, this use case empowers the user to have complete control over the produ
 - User can see a list of all existing products in the inventory
 - User has the possibility to add a new product by clicking on the "New product" button
 - User has the possibility to change the properties of a product by clicking on it or to remove it by clicking on the "Delete" button
+<br/>  
+<br/>  
 
 ### Activity Diagram
 ![Activity Diagram](./Activity%20Diagram%20-%20Adding%20Product2.jpg?raw=true)
+<br/>  
+<br/>  
 
 ### Sequence Diagram
 ![Sequence Diagram](./sequenzDiagram_inventory.png?raw=true)
+<br/>  
+<br/>  
 
 ## 2.2 Alternative Flows
 n/a
+<br/>  
+<br/>  
 
 # 3. Special Requirements
 In order to utilize this use case, the user must have a stable internet connection to access the product management system or application. The availability of an internet connection ensures seamless communication between the user's device and the server hosting the product database.
@@ -45,18 +57,26 @@ By assigning the necessary rights to the user's role, the system ensures that th
 
 Furthermore, the system may incorporate additional security measures, such as authentication and authorization mechanisms, to verify the user's identity and ensure they are authorized to perform the requested actions. This helps safeguard the product data and restricts access to only authorized personnel.
 
-In summary, a stable internet connection and appropriate user role with the necessary rights are essential requirements for the user to effectively utilize the product management system and carry out actions such as creating, modifying, and deleting products. (see [use case user roles](./uc2_user_role_management.md)).
+In summary, a stable internet connection and appropriate user role with the necessary rights are essential requirements for the user to effectively utilize the product management system and carry out actions such as creating, modifying, and deleting products (see [use case "user role management"](./uc2_user_role_management.md)).
+<br/>  
+<br/>  
 
 # 4. Preconditions
 The Preconditions for this use case are:
 1. The user has started the application
 2. The user has navigated to the management board
+<br/>  
+<br/>  
 
 # 5. Postconditions
 n/a
+<br/>  
+<br/>  
 
 ### 5.1 Save changes / Sync with server
 The displayed data should be updated whenever the user clicks a button. These changes are not only reflected in the user interface but are also persistently stored in the database. By storing the modifications in the database, the updated files and associated information become available to all authorized users, ensuring easy accessibility and seamless collaboration. Other users can access the files and interact with the updated data, enabling a synchronized and shared experience across the system.
+<br/>  
+<br/>  
 
 # 6. Function Points
 Story points: 13
