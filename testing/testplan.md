@@ -82,6 +82,14 @@ Revision History
 
 ## 1. Introduction
 
+Testing is a crucial aspect of software development that ensures the reliability, functionality, and quality of applications. JUnit and JavaFX testing are two essential frameworks in the Java ecosystem that facilitate the testing of Java applications.
+
+JUnit is a widely adopted testing framework for Java, specifically designed for unit testing. It provides a simple and intuitive way to write and execute test cases, making it an indispensable tool for developers. With JUnit, developers can define test methods that target specific units of code, such as methods or classes, and verify their functionality against expected outcomes.
+
+JavaFX, on the other hand, is a powerful framework for creating rich graphical user interfaces (GUIs) in Java applications. To ensure that the user interface behaves as intended, testing JavaFX applications becomes crucial. JavaFX provides its own testing framework, which includes APIs for automated UI testing, event simulation, and assertion verification.
+
+In this guide, we will explore the capabilities of JUnit and JavaFX testing frameworks, enabling developers to write effective test cases and ensure the robustness of their Java applications. By leveraging these frameworks, developers can gain confidence in the correctness and reliability of their software, leading to better user experiences and increased developer productivity.
+
 ### 1.1 Purpose
 
 The purpose of the Iteration Test Plan is to gather all the information necessary to plan and control the test effort for the given iteration. It describes the approach to the testing of the software and is the top-level plan generated and used by the managers to direct the test effort
