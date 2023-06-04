@@ -28,6 +28,7 @@ This repository is for documentation purposes only. Please comment in our wordpr
 - [Metrics](https://github.com/jan-nie/dhbw-framgang/blob/main/metrics/metrics.md)
 - [CI/CD](https://github.com/jan-nie/dhbw-framgang/blob/main/cicd/cicd.md)
 - [Technical Review](https://github.com/jan-nie/dhbw-framgang/blob/main/technical/technical-review.md)
+- [Project Retrospective](https://github.com/jan-nie/dhbw-framgang/blob/main/retrospective/retrospective.png)
 &nbsp;  
 &nbsp;
 
