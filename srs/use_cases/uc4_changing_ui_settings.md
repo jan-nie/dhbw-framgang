@@ -3,7 +3,7 @@
 # 1. Getting an overview
 
 ## 1.1 Brief Description
-The company administrator has the possibility to change the colour palette of the UI for the company. He also has the possibility to add the name of the company to the UI and thus personalise the IMSE.
+A user with the Administrator role should be able to change the color palette of the user interface from the generic colors to specific colors that match the corporate identity. It should be possible to change the grayscale used and an accent color. It should also be possible to change the font to further customize the UI to the cooperate design. 
 
 ## 1.2 Mockup
 <img src="data_usecase4/mockup_usecase4.png" alt="Screenshot changing UI settings" width="600"/>
@@ -14,10 +14,10 @@ see 1.2
 # 2. Flow of Events
 
 ## 2.1 Basic Flow
-- The Admin navigates to the settings
-- then the admin must select the Corporate Design tab
-- Here the admin has the option to enter the company name. Adjust the accent colour and store the grey levels. 
-- He can also adjust the font here
+- The administrator navigates to the settings
+- The administrator must then select the Corporate Design tab.
+- Here the administrator has the possibility to adjust the accent color and to set the gray levels of the ui
+- In the same tab it is also possible to change the font.
 
 ### Activity Diagram
 <img src="data_usecase4/activityDiagram_usecase4.jpg" alt="Screenshot changing UI settings" width="600"/>
@@ -29,20 +29,20 @@ see 1.2
 n/a
 
 # 3. Special Requirements
-- User roles are assumed 
+- To change the cooperate design, the user must have the administrative role.
 
 # 4. Preconditions
-The Preconditions for this use case are:
-1. The user has started the App
-2. The user has navigated to settings
-3. The user has an existing database connection
+The requirements for this use case are:
+1. The user has launched the application
+2. The user has navigated to Preferences
+3. User has an existing database connection
 4. The user is an admin
 
 # 5. Postconditions
-n/a
+The updated design must be stored in the database and displayed and applied to all users
 
 ### 5.1 Save changes / Sync with server
-The displayed data should be updated whenever the user restarts the programm. 
+The selected theme should be updated every few seconds as changes are made.
 
 # 6. Function Points
 Total number of function points: 5
