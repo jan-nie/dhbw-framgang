@@ -13,7 +13,7 @@ A user with the Administrator role should be able to change the color palette of
 <br/>  
 
 ## 1.3 Screenshot
-<img src="data_usecase4/Screenshot-Usecase-UiSettings.png" alt="Screenshot changing UI settings" />
+<img src="Screenshot-Usecase-UiSettings.png" alt="Screenshot changing UI settings" />
 <br/>  
 <br/>  
 
