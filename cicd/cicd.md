@@ -19,6 +19,38 @@ GitHub actions allow us to seamlessly integrate our unit tests into the developm
 Dependency checking has always been an important aspect of our development work. With the help of another GitHub action, we can automatically check whether the libraries and modules we use have security holes or known vulnerabilities. This allows us to minimize potential risks and ensure that our application meets the highest standards in terms of security. The GitHub action for dependency checking has sped up our process and gives us confidence that we are relying on secure resources.
 <br />  
 <br />  
+The code of the workflow to run the tests looks like this:  
+```
+name: Maven Run Tests
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up JDK 17
+      uses: actions/setup-java@v3
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: maven
+    - name: Run Tests with Maven
+      run: mvn test --file pom.xml
+```
+The .yaml files of the three implemented workflows are linked below:  
+[Run Tests](https://github.com/jan-nie/dhbw-software-engineering/blob/main/.github/workflows/maven-run-tests.yaml)  
+[Build Package](https://github.com/jan-nie/dhbw-software-engineering/blob/main/.github/workflows/maven-build-package.yml)  
+[Dependency Check](https://github.com/jan-nie/dhbw-software-engineering/blob/main/.github/workflows/maven-dependency-check.yaml)  
+
+<br />  
+<br />  
 <br />  
 <br />  
 
