@@ -31,62 +31,62 @@ We chose the CSV export feature because we concurred that this part of the proje
 
 ## Components
 ### Code quality
-**Modularity**:  
-The code is divided into logically separated modules or functions to promote reusability.  
+- **Modularity**:  
+  The code is divided into logically separated modules or functions to promote reusability.  
 
-**Consistency**:  
-The code uses consistent formatting and naming standards to improve readability. However, a method has been implemented twice with identical names. Once without a parameter and once with a parameter. Consistent naming requires that all methods be uniquely named. We have to adapt this accordingly.  
+- **Consistency**:  
+  The code uses consistent formatting and naming standards to improve readability. However, a method has been implemented twice with identical names. Once without a parameter and once with a parameter. Consistent naming requires that all methods be uniquely named. We have to adapt this accordingly.  
 
-**Testability**:  
-The code is structured in a way that prioritizes testability, enabling efficient quality assurance processes. By adhering to best practices, such as keeping methods short and giving them descriptive names, the code becomes more readable and maintainable, making it easier to write comprehensive test cases.
+- **Testability**:  
+  The code is structured in a way that prioritizes testability, enabling efficient quality assurance processes. By adhering to best practices, such as keeping methods short and giving them descriptive names, the code becomes more readable and maintainable, making it easier to write comprehensive test cases.
 
-Additionally, to facilitate testing, access to databases or files is outsourced or abstracted using appropriate design patterns. This separation of concerns allows for easier mocking of database or file interactions during testing. Mocking frameworks can be employed to simulate these interactions and provide controlled test environments, enabling thorough testing of various scenarios without relying on actual external resources.
+  Additionally, to facilitate testing, access to databases or files is outsourced or abstracted using appropriate design patterns. This separation of concerns allows for easier mocking of database or file interactions during testing. Mocking frameworks can be employed to simulate these interactions and provide controlled test environments, enabling thorough testing of various scenarios without relying on actual external resources.
 
-By decoupling the code from database or file dependencies, tests can be written to focus solely on the behavior and logic of individual components or units. This promotes isolation and helps ensure that any issues or bugs within the code can be detected and addressed promptly. It also enhances the overall stability and reliability of the software, as tests can be executed consistently and reliably, regardless of external factors.
+  By decoupling the code from database or file dependencies, tests can be written to focus solely on the behavior and logic of individual components or units. This promotes isolation and helps ensure that any issues or bugs within the code can be detected and addressed promptly. It also enhances the overall stability and reliability of the software, as tests can be executed consistently and reliably, regardless of external factors.
 
-**Readability**:  
-To improve maintainability, it is important to have well-structured, well-commented, and easily understandable code. For example, organizing code into modular components and following established design patterns, such as MVC (Model-View-Controller), can make it easier to navigate and modify specific parts of the codebase.
+- **Readability**:  
+  To improve maintainability, it is important to have well-structured, well-commented, and easily understandable code. For example, organizing code into modular components and following established design patterns, such as MVC (Model-View-Controller), can make it easier to navigate and modify specific parts of the codebase.
 
-In addition, providing meaningful comments throughout the code can greatly enhance comprehension. For instance, adding comments to explain complex algorithms, document assumptions, or clarify the purpose of certain code blocks helps developers understand the code's functionality and intention.
+  In addition, providing meaningful comments throughout the code can greatly enhance comprehension. For instance, adding comments to explain complex algorithms, document assumptions, or clarify the purpose of certain code blocks helps developers understand the code's functionality and intention.
 
-As part of the refactoring process, we can optimize the code by breaking down long methods into smaller, more focused ones with appropriate names. This promotes readability and allows for easier maintenance in the future. By refactoring and improving the code structure and comments, we create a solid foundation for ongoing development, making it easier to add new features or fix issues as the codebase evolves.
+  As part of the refactoring process, we can optimize the code by breaking down long methods into smaller, more focused ones with appropriate names. This promotes readability and allows for easier maintenance in the future. By refactoring and improving the code structure and comments, we create a solid foundation for ongoing development, making it easier to add new features or fix issues as the codebase evolves.
 <br />  
 <br />  
 
 ### Performance
-**Speed**:  
-Efficiency is a key consideration for the export function, especially when dealing with large amounts of data. To ensure quick generation of CSV files, optimizing data retrieval, employing buffering techniques, and utilizing parallel processing can significantly improve performance. Additionally, compressing the CSV files can reduce file size, facilitating faster transfers and storage efficiency. By implementing these strategies, the export function can efficiently handle large datasets and generate CSV files swiftly. 
+- **Speed**:  
+  Efficiency is a key consideration for the export function, especially when dealing with large amounts of data. To ensure quick generation of CSV files, optimizing data retrieval, employing buffering techniques, and utilizing parallel processing can significantly improve performance. Additionally, compressing the CSV files can reduce file size, facilitating faster transfers and storage efficiency. By implementing these strategies, the export function can efficiently handle large datasets and generate CSV files swiftly. 
 
-**Resource Consumption**:  
-The export process should optimize resource consumption (CPU, memory) to ensure smooth performance. For this, we use common Java methods that conserve resources.
+- **Resource Consumption**:  
+  The export process should optimize resource consumption (CPU, memory) to ensure smooth performance. For this, we use common Java methods that conserve resources.
 <br />  
 <br />  
 
 ### Security
-**Privacy**:  
-The export function serves only non-sensitive data.  
+- **Privacy**:  
+  The export function serves only non-sensitive data.  
 
-**Permissions**:  
-The export function not only needs to be efficient but also must prioritize security and access control. Ensuring that only authorized users have access to the export functionality and that export operations align with the permissions set is crucial. While this implementation is planned for the future, it will play a critical role in maintaining data security.
+- **Permissions**:  
+  The export function not only needs to be efficient but also must prioritize security and access control. Ensuring that only authorized users have access to the export functionality and that export operations align with the permissions set is crucial. While this implementation is planned for the future, it will play a critical role in maintaining data security.
 
-By implementing robust authentication and authorization mechanisms, the export function can verify user credentials and permissions before allowing access. This prevents unauthorized users from initiating export operations and ensures that data is only exported by authorized individuals. Additionally, considering user-defined filters and adhering to data protection regulations can further enhance security and privacy during the export process.
+  By implementing robust authentication and authorization mechanisms, the export function can verify user credentials and permissions before allowing access. This prevents unauthorized users from initiating export operations and ensures that data is only exported by authorized individuals. Additionally, considering user-defined filters and adhering to data protection regulations can further enhance security and privacy during the export process.
 <br />  
 <br />  
 
 ### Scalability
-**Processing large amounts of data**:  
-The export function not only needs to be efficient but also must prioritize security and access control. Ensuring that only authorized users have access to the export functionality and that export operations align with the permissions set is crucial. While this implementation is planned for the future, it will play a critical role in maintaining data security.
+- **Processing large amounts of data**:  
+  The export function not only needs to be efficient but also must prioritize security and access control. Ensuring that only authorized users have access to the export functionality and that export operations align with the permissions set is crucial. While this implementation is planned for the future, it will play a critical role in maintaining data security.
 
-By implementing robust authentication and authorization mechanisms, the export function can verify user credentials and permissions before allowing access. This prevents unauthorized users from initiating export operations and ensures that data is only exported by authorized individuals. Additionally, considering user-defined filters and adhering to data protection regulations can further enhance security and privacy during the export process.
+  By implementing robust authentication and authorization mechanisms, the export function can verify user credentials and permissions before allowing access. This prevents unauthorized users from initiating export operations and ensures that data is only exported by authorized individuals. Additionally, considering user-defined filters and adhering to data protection regulations can further enhance security and privacy during the export process.
 <br />  
 <br />  
 
 ### Maintainability
-**Modularity**:  
-The codebase is organized into independent modules, ensuring that changes or bug fixes can be made to one module without impacting other parts of the application. This modular approach promotes code isolation and separation of concerns, enabling developers to work on specific modules independently. It enhances maintainability, reusability, and reduces the risk of unintended consequences when modifying or fixing issues within the codebase.
+- **Modularity**:  
+  The codebase is organized into independent modules, ensuring that changes or bug fixes can be made to one module without impacting other parts of the application. This modular approach promotes code isolation and separation of concerns, enabling developers to work on specific modules independently. It enhances maintainability, reusability, and reduces the risk of unintended consequences when modifying or fixing issues within the codebase.
 
-**Documentation**:  
-The codebase is well-documented with internal comments, enabling easier maintenance and improving understanding. These comments provide insights into the code's functionality and purpose, helping developers quickly grasp its logic and potential nuances. Additionally, comprehensive documentation gives a high-level overview of the codebase, facilitating efficient collaboration and knowledge sharing within the development team. This emphasis on documentation enhances maintainability and ensures a common understanding of the codebase, ultimately improving the overall quality of the software. 
+- **Documentation**:  
+  The codebase is well-documented with internal comments, enabling easier maintenance and improving understanding. These comments provide insights into the code's functionality and purpose, helping developers quickly grasp its logic and potential nuances. Additionally, comprehensive documentation gives a high-level overview of the codebase, facilitating efficient collaboration and knowledge sharing within the development team. This emphasis on documentation enhances maintainability and ensures a common understanding of the codebase, ultimately improving the overall quality of the software. 
 <br />  
 <br />  
 
