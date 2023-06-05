@@ -9,7 +9,7 @@ Clean Code refers to a programming style characterized by readability, clarity a
 <br />  
 
 ## Implementation of clean code principles
-The following sections explain some of the principles of clean code that were considered in the project and can be found in the X1 and X2 classes. By analyzing the code, it becomes clear how these principles were successfully applied to improve the readability, maintainability and quality of the code.
+The following sections explain some of the principles of clean code that were considered in the project. By analyzing the code, it becomes clear how these principles were successfully applied to improve the readability, maintainability and quality of the code. In section ["Clean Code in our project"](#clean-code-in-our-project), we explained how we implemented the Clean Code principles in our project.
 <br />  
 <br />  
 
@@ -78,34 +78,41 @@ The use of the logging framework log4j2 helped provide the code with meaningful 
 <br />  
 <br />  
 
-## Conclusion
-The implementation of Clean Code in the software project has significantly contributed to the improvement of code quality. By the application of the described paradigms and principles the number of the Code Smells could be reduced significantly. The readability, maintainability and extensibility of the code were significantly improved.
+## Clean Code in our Project
+In order to maintain clean code and ensure a well-structured project, it's important to focus on clean code practices across various files. Let's take a look at how clean code principles are applied in the "DatabaseModel," "DatabaseController," "User," and "CSVController" files.
+<br />  
+<br />  
+
+**DatabaseModel**:  
+   * Follows the Single Responsibility Principle (SRP). Ensured that the class is responsible for managing only the database model and related functionalities.  
+   * Use of meaningful variable and method names. Avoid abbreviations and use of clear and descriptive names to enhance code readability.
 <br />  
 <br />
 
-## Clean Code in our Project
-In order to maintain clean code and ensure a well-structured project, it's important to focus on clean code practices across various files. Let's take a look at how clean code principles are applied in the "DatabaseModel," "DatabaseController," "User," and "CSVController" files.
 
-DatabaseModel:
-
-   * Follows the Single Responsibility Principle (SRP). Ensured that the class is responsible for managing only the database model and related functionalities.  
-   * Use of meaningful variable and method names. Avoid abbreviations and use of clear and descriptive names to enhance code readability.  <br>
-
-DatabaseController:
-
+**DatabaseController**:  
    * Applied the SRP principle. Ensure that the class is responsible for controlling the interaction between the application and the database and managing transactions. 
    * Splitting large methods into smaller, more manageable ones. This improves code maintainability and readability.
    * Follows naming conventions for methods and variables. Use of clear and descriptive names that accurately represent their purpose.  
    * Error handling mechanisms to handle exceptions. <br>
+<br />  
+<br />
 
-User:
-
+**User**:
    * Applied proper encapsulation by making class properties private and providing public methods for accessing and manipulating them. 
    * Use of well-defined data types for class properties. No use of generic types like "Object". 
    * Follows naming conventions for classes, methods, and variables. Use of descriptive and meaningful names to make the code more self-explanatory.<br>  
+<br />  
+<br />
 
-CSVController:
-
+**CSVController**:
    * Applied the SRP principle. Ensure that the class is responsible for handling CSV file operations and related functionalities.
    * Error handling for file I/O operations to handle exceptions gracefully.
    * Use of meaningful variable and method names to improve code readability and maintainability.<br>  
+<br />  
+<br />
+
+## Conclusion
+The implementation of Clean Code in the software project has significantly contributed to the improvement of code quality. By the application of the described paradigms and principles the number of the Code Smells could be reduced significantly. The readability, maintainability and extensibility of the code were significantly improved.
+<br />  
+<br />
