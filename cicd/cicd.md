@@ -44,7 +44,7 @@ jobs:
     - name: Run Tests with Maven
       run: mvn test --file pom.xml
 ```
-The .yaml files of the three implemented workflows are linked below:  
+The .yaml files of the three implemented workflows are linked below (authorization required):  
 [Run Tests](https://github.com/jan-nie/dhbw-software-engineering/blob/main/.github/workflows/maven-run-tests.yaml)  
 [Build Package](https://github.com/jan-nie/dhbw-software-engineering/blob/main/.github/workflows/maven-build-package.yml)  
 [Dependency Check](https://github.com/jan-nie/dhbw-software-engineering/blob/main/.github/workflows/maven-dependency-check.yaml)  
