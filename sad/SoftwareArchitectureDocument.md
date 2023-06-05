@@ -1,4 +1,4 @@
-# Inventory Management System Enterprise (IM SE)
+# Inventory Management System Enterprise (IMSE)
 # Software Architecture Document
 
 ## Table of contents
