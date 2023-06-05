@@ -17,23 +17,23 @@ This repository is for documentation purposes only. Please comment in our wordpr
 ## Documentation
 
 ### Table of contents
-- [Software Requirements Specification (SRS)](https://github.com/jan-nie/dhbw-framgang/blob/main/srs/SoftwareRequirementsSpecification.md)
-- [Architecturally Significant Requirements (ASR)](https://github.com/jan-nie/dhbw-framgang/blob/main/asr/asr.md)
-- [Software Architecture Document (SAD)](https://github.com/jan-nie/dhbw-framgang/blob/main/sad/SoftwareArchitectureDocument.md)
-- [Class diagram](https://github.com/jan-nie/dhbw-framgang/blob/main/classes/classdiagram.md)
-- [Use-Case-Realization Specification: Change Corporate Design](https://dhbwse.files.wordpress.com/2022/11/ucrs_corporatedesign.pdf)
-- [Use-Case-Realization Specification: Add Product](https://dhbwse.files.wordpress.com/2022/11/ucrs_addproduct.pdf)
-- [Risk Mitigation, Monitoring and Management (RMMM)](https://raw.githubusercontent.com/jan-nie/dhbw-framgang/main/rmmm/Risk%20Management.pdf)
-- [Clean Code](https://github.com/jan-nie/dhbw-framgang/blob/main/cleancode/clean-code.md)
-- [Metrics](https://github.com/jan-nie/dhbw-framgang/blob/main/metrics/metrics.md)
-- [CI/CD](https://github.com/jan-nie/dhbw-framgang/blob/main/cicd/cicd.md)
-- [Technical Review](https://github.com/jan-nie/dhbw-framgang/blob/main/technical/technical-review.md)
-- [Project Retrospective](https://github.com/jan-nie/dhbw-framgang/blob/main/retrospective/retrospective.png)
+- [Software Requirements Specification (SRS)](/srs/SoftwareRequirementsSpecification.md)
+- [Architecturally Significant Requirements (ASR)](/asr/asr.md)
+- [Software Architecture Document (SAD)](/sad/SoftwareArchitectureDocument.md)
+- [Class diagram](/classes/classdiagram.md)
+- [Use-Case-Realization Specification: Change Corporate Design](/srs/use_cases/UCRS_CorporateDesign.pdf)
+- [Use-Case-Realization Specification: Add Product](/srs/use_cases/UCRS_AddProduct.pdf)
+- [Risk Mitigation, Monitoring and Management (RMMM)](/rmmm/Risk%20Management.pdf)
+- [Clean Code](/cleancode/clean-code.md)
+- [Metrics](/metrics/metrics.md)
+- [CI/CD](/cicd/cicd.md)
+- [Technical Review](/technical/technical-review.md)
+- [Project Retrospective](/retrospective/retrospective.png)
 &nbsp;  
 &nbsp;
 
 ### Midterm handout 🗒️
-[Midterm Handout](https://github.com/jan-nie/dhbw-framgang/blob/main/Software%20Engineering%20Handout%20Midterm.pdf)
+[Midterm Handout](Software%20Engineering%20Handout%20Midterm.pdf)
 &nbsp;  
 &nbsp;
 
