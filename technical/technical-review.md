@@ -21,7 +21,7 @@
 
 ## Goal/Focus
 The goal of this review meeting was to evaluate the CSV export function and identify any potential issues or areas for improvement. The focus was on ensuring the functionality, code quality, performance, security, scalability, and maintainability of the CSV export feature.
-We chose the CSV export feature because we concurred that this part of the project needed optimization and all other features were already sufficiently optimized for the live demo.
+We chose the CSV export feature because we concurred that this part of the project needed optimization and all other features were already sufficiently optimized.
 
 **Files**
 - CSV Controller
