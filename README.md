@@ -1,6 +1,11 @@
 # DHBW TINF21B2 Software Engineering - Framgång
 ## Preamble
-This repository is for documentation purposes only. Please comment in our wordpress blog (link below)!
+This repository is for documentation purposes only. Please comment in our wordpress blog (link below)!  
+&nbsp;  
+&nbsp;
+
+## Project Vision
+The Inventory Management System Enterprise software project focuses on the development of a desktop application for inventory management. Its outstanding features include comprehensive user management, efficient management of products, and sales recording and analysis. The system offers companies a user-friendly and powerful solution for optimizing their inventories and increasing efficiency in the sales process.  
 &nbsp;  
 &nbsp;
 
