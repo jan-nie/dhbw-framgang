@@ -92,4 +92,4 @@ Another interesting example is the ui.controller package. It has a high Efferent
 
 It is important to note that the interpretation of the coupling metrics depends heavily on the context and needs of the application. Some applications may require higher coupling between certain packages, while in other cases loose coupling is preferred.
 
-<img src="coupling-13.06.2023.png" alt="coupling" width="750">
+<img src="coupling-13-06.2023.png" alt="coupling" width="750">
