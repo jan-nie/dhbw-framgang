@@ -72,9 +72,7 @@ There are a few limitations to WMC. First, it is a static metric, which means th
   </tr>
 </table>
 
-The image displays a table with three columns. In the first column, labeled "WMC Values," a series of numerical values ranging from 5 to 11 can be observed. These values represent the WMC (Weighted Method Count) of various methods within classes.
-Moving to the second column, labeled "Class and Method Names," it contains textual information consisting of class and method names. This column helps to associate the WMC values with their corresponding classes and methods, allowing for easy identification and analysis.
-The third column, labeled "Path," showcases the paths associated with the classes and methods. These paths likely refer to the file paths where the classes and methods are located within the codebase. This information aids in locating and navigating to specific areas of the codebase for further examination or modification.
+As our project has progressed, a considerable number of new classes have been developed. Alongside this expansion, numerous features have been incorporated into these classes, resulting in a significant increase in complexity. Moreover, it has come to our attention that a few classes served as 'dummy' classes, meaning they either lacked substantial content or failed to provide any meaningful value to the project
 <br />
 <br />
 <br />
