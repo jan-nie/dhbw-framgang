@@ -60,6 +60,12 @@ WMC is one of the most commonly used software metrics. It is a useful metric for
 
 **Calculation of the WMC**  
 There are a few limitations to WMC. First, it is a static metric, which means that it is calculated from the source code of a class. It does not take into account the dynamic behavior of the class. Second, WMC is a single metric, which does not provide a complete picture of the complexity of a class. Other metrics, such as coupling and cohesion, can be used to provide a more complete picture of class complexity.
+
+<img src="WMC.png" alt="cyclomatic complexity code" width="750">
+
+The image displays a table with three columns. In the first column, labeled "WMC Values," a series of numerical values ranging from 5 to 11 can be observed. These values represent the WMC (Weighted Method Count) of various methods within classes.
+Moving to the second column, labeled "Class and Method Names," it contains textual information consisting of class and method names. This column helps to associate the WMC values with their corresponding classes and methods, allowing for easy identification and analysis.
+The third column, labeled "Path," showcases the paths associated with the classes and methods. These paths likely refer to the file paths where the classes and methods are located within the codebase. This information aids in locating and navigating to specific areas of the codebase for further examination or modification.
 <br />
 <br />
 <br />
