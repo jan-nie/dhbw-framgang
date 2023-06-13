@@ -91,3 +91,5 @@ For example, the “interfaces” package has 11 afferent Couplings (Ca), it was
 Another interesting example is the ui.controller package. It has a high Efferent Coupling (Ce) count, suggesting that it depends on many other packages. At the same time, it has high instability (I) and a large distance from the main sequence (D). This indicates that the package is prone to change.
 
 It is important to note that the interpretation of the coupling metrics depends heavily on the context and needs of the application. Some applications may require higher coupling between certain packages, while in other cases loose coupling is preferred.
+
+<img src="coupling-13.06.2023.png" alt="coupling" width="750">
