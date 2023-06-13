@@ -98,5 +98,6 @@ Another interesting example is the ui.controller package. It has a high Efferent
 
 It is important to note that the interpretation of the coupling metrics depends heavily on the context and needs of the application. Some applications may require higher coupling between certain packages, while in other cases loose coupling is preferred.
 
-In the picture below you can see the new evaluation of the coupling of our project. You can see that the package "components" has been added and except for minimal changes of one value there are no differences to the old state.
+In the picture below you can see the new evaluation of the coupling of our project. You can see that the package "components" has been added and except for minimal changes of one value there are no differences to the old state. So we have maintained our quality despite the new code, because the coupling of the packages has not increased. 
+
 <img src="coupling-13-06.2023.png" alt="coupling" width="750">
