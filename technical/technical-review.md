@@ -108,10 +108,12 @@ As part of the technical review performed, a combination of methods was used to 
 
 ### Action Items
 For each of these identified aspects, we created action items to be able to optimize the issues until the end of the project. The following is a list of the action items, each of which is assigned to a key point in Outcome.  
-- **Consistency**: Jan until 04.06.2023
-- **Refactoring**: Nicolai until 04.06.2023
-- **Permissions**: Nicolai until 04.06.2023
-- **Filter Function**: Marius until 04.06.2023
+- **Consistency**: Jan until 10.06.2023<sup>(1)</sup>
+- **Refactoring**: Nicolai until 10.06.2023
+- **Permissions**: Nicolai until 10.06.2023
+- **Filter Function**: Marius until 10.06.2023
+<br />  
+<sup>(1)</sup> Due to higher prioritized tickets and the end of the project, the listed action items were no longer implemented.
 <br />  
 <br />  
 
