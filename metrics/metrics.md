@@ -61,10 +61,14 @@ WMC is one of the most commonly used software metrics. It is a useful metric for
 **Calculation of the WMC**  
 There are a few limitations to WMC. First, it is a static metric, which means that it is calculated from the source code of a class. It does not take into account the dynamic behavior of the class. Second, WMC is a single metric, which does not provide a complete picture of the complexity of a class. Other metrics, such as coupling and cohesion, can be used to provide a more complete picture of class complexity.
 
-<table style="width: 100%; border-collapse: collapse;">
+<table style="width: 100%; border-collapse: collapse; border: none;">
   <tr>
-    <td><img src="WMC.png" alt="WMC"></td>
+    <td>WMC April 2023</td>
+    <td>WMC June 2023</td>
+  </tr>
+  <tr>
     <td><img src="WMC_OLD.png" alt="WMC_Old"></td>
+    <td><img src="WMC.png" alt="WMC"></td>
   </tr>
 </table>
 
