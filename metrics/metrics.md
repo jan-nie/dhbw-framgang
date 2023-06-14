@@ -41,15 +41,30 @@ This code has a Cyclomatic Complexity of 2 because it contains a decision (IF st
 
 The current metric on Cyclomatic Complexity can be seen in the following graph. This shows that as the code base increases, the Cyclomatic Complexity also increases, which is due to the growing number of different branches. However, the metric could be optimized a little by making adjustments to the code.
 
-<img src="code-complexity-15.05.2023.png" alt="cyclomatic complexity metrics" width="750">
+<img src="code-complexity-15.05.2023.png" alt="cyclomatic complexity metrics old" width="750">
 
 <br />
 <br />
 <br />
+
+**Improvement**  
+<br />
+<img src="code-complexity-13.06.2023.png" alt="cyclomatic complexity metrics new" width="750">
+
+The figure above shows the Cyclomatic Complexity of our code over the course of the entire project.  
+
+In the first measurement on 18.05.2023, we obtained a value of 136. The measurement at the end of the project on 13.06.2023 gave a value of 239. It seems that the metric has worsened.  
+
+Our goal was to reduce Cyclomatic Complexity during the project to make the code more manageable and maintainable. Although the final value is higher than the baseline, it is important to note that the code base more than doubled during this period. Taking this into account, we can state that we were able to improve this metric.  
+
+The fact that we were able to keep Cyclomatic Complexity in bounds despite the strong growth in the code base is a significant achievement. This shows that when developing new features and modules, we were able to control the complexity and still keep the code well structured.
+<br />
+<br />
+<br />
 <br />
 
 
-**Weighted Methods per Class (WMC)**  
+## Weighted Methods per Class (WMC)  
 Weighted Methods per Class (WMC) is a software metric that measures the complexity of a class. It is calculated by summing the cyclomatic complexities of all the methods in the class. The cyclomatic complexity of a method is a measure of the number of independent paths through the method. A higher WMC value indicates a more complex class, which may require more time and effort to develop and maintain.
 <br />
 <br />
@@ -60,6 +75,10 @@ WMC is one of the most commonly used software metrics. It is a useful metric for
 
 **Calculation of the WMC**  
 There are a few limitations to WMC. First, it is a static metric, which means that it is calculated from the source code of a class. It does not take into account the dynamic behavior of the class. Second, WMC is a single metric, which does not provide a complete picture of the complexity of a class. Other metrics, such as coupling and cohesion, can be used to provide a more complete picture of class complexity.
+<br />
+<br />
+
+**Improvement**  
 
 <table style="width: 100%; border-collapse: collapse; border: none;">
   <tr>
@@ -72,7 +91,7 @@ There are a few limitations to WMC. First, it is a static metric, which means th
   </tr>
 </table>
 
-As our project has progressed, a considerable number of new classes have been developed. Alongside this expansion, numerous features have been incorporated into these classes, resulting in a significant increase in complexity. Moreover, it has come to our attention that a few classes served as 'dummy' classes, meaning they either lacked substantial content or failed to provide any meaningful value to the project
+As our project has progressed, a considerable number of new classes have been developed. Alongside this expansion, numerous features have been incorporated into these classes, resulting in a significant increase in complexity. Moreover, it has come to our attention that a few classes served as 'dummy' classes, meaning they either lacked substantial content or failed to provide any meaningful value to the project.
 <br />
 <br />
 <br />
@@ -104,7 +123,10 @@ For example, the “interfaces” package has 11 afferent Couplings (Ca), it was
 Another interesting example is the ui.controller package. It has a high Efferent Coupling (Ce) count, suggesting that it depends on many other packages. At the same time, it has high instability (I) and a large distance from the main sequence (D). This indicates that the package is prone to change.
 
 It is important to note that the interpretation of the coupling metrics depends heavily on the context and needs of the application. Some applications may require higher coupling between certain packages, while in other cases loose coupling is preferred.
+<br />
+<br />
 
+**Improvement**  
 In the picture below you can see the new evaluation of the coupling of our project. You can see that the package "components" has been added and except for minimal changes of one value there are no differences to the old state. So we have maintained our quality despite the new code, because the coupling of the packages has not increased. 
 
 <img src="coupling-13-06.2023.png" alt="coupling" width="750">
