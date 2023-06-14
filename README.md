@@ -48,6 +48,7 @@ The Inventory Management System Enterprise software project focuses on the devel
 
 ### Weekly blog posts 📰
 [Framgång Blog](https://dhbwse.wordpress.com/blog/)
+- [Week 18 - Project Retrospective](https://dhbwse.wordpress.com/2023/06/05/week-18-project-retrospective/)
 - [Week 17 - Technical Review](https://dhbwse.wordpress.com/2023/05/30/week-17-technical-review-of-csv-export-function/)
 - [Week 16 - CI/CD](https://dhbwse.wordpress.com/2023/05/17/week-16-ci-cd/)
 - [Week 15 - Metrics](https://dhbwse.wordpress.com/2023/05/15/week-15-metrics/)
