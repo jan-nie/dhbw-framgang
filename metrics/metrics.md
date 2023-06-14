@@ -53,7 +53,7 @@ The current metric on Cyclomatic Complexity can be seen in the following graph. 
 
 The figure above shows the Cyclomatic Complexity of our code over the course of the entire project.  
 
-In the first measurement on 18.05.2023, we obtained a value of 136. The measurement at the end of the project on 13.06.2023 gave a value of 239. It seems that the metric has worsened.  
+In the first measurement on 18.04.2023, we obtained a value of 136. The measurement at the end of the project on 13.06.2023 gave a value of 239. It seems that the metric has worsened.  
 
 Our goal was to reduce Cyclomatic Complexity during the project to make the code more manageable and maintainable. Although the final value is higher than the baseline, it is important to note that the code base more than doubled during this period. Taking this into account, we can state that we were able to improve this metric.  
 
