@@ -31,14 +31,18 @@ The Inventory Management System Enterprise software project focuses on the devel
 - [Risk Mitigation, Monitoring and Management (RMMM)](/rmmm/Risk%20Management.pdf)
 - [Clean Code](/cleancode/clean-code.md)
 - [Metrics](/metrics/metrics.md)
+- [Test Plan](/testing/TestPlan.md)
+- [Test Report](/testing/TestReport.md)
 - [CI/CD](/cicd/cicd.md)
 - [Technical Review](/technical/technical-review.md)
 - [Project Retrospective](/retrospective/retrospective.png)
+- [Lessons Learned](#lessons-learned)
 &nbsp;  
 &nbsp;
 
 ### Midterm handout 🗒️
-[Midterm Handout](Software%20Engineering%20Handout%20Midterm.pdf)
+[Handout Midterm](Software%20Engineering%20Handout%20Midterm.pdf)  
+[Handout Final](Software%20Engineering%20Handout%20Final.pdf)
 &nbsp;  
 &nbsp;
 
@@ -63,3 +67,15 @@ The Inventory Management System Enterprise software project focuses on the devel
 - [Week 1](https://dhbwse.wordpress.com/2022/10/18/week-1-youtrack-is-initialized/)
 - [Week 0](https://dhbwse.wordpress.com/2022/10/07/project-scope/)
 
+&nbsp;  
+&nbsp;
+
+### Lessons Learned
+- choose the project-scope not too big
+- at first, we had problems with the graphics in the documents (often inferior quality), today we pay attention to high resolution and appealing presentation
+- when choosing a provider, consider if and after which period the account will be suspended (mongoDB)
+- check in time if all requirements are fulfilled (e.g. accessibility from outside)
+- choice of platform: web-app would have opened more possibilities and avoided some difficulties (see DB, CD)
+- make sure to start early with time management
+- finish documents early and don't put everything off until "later"
+  - high workload at the end of the semester
