@@ -4,7 +4,7 @@ This repository is for documentation purposes only. Please comment in our wordpr
 &nbsp;  
 &nbsp;
 
-## Project Vision
+## Project Vision :bulb:
 The Inventory Management System Enterprise software project focuses on the development of a desktop application for inventory management. Its outstanding features include comprehensive user management, efficient management of products, and sales recording and analysis. The system offers companies a user-friendly and powerful solution for optimizing their inventories and increasing efficiency in the sales process.  
 &nbsp;  
 &nbsp;
@@ -46,6 +46,11 @@ The Inventory Management System Enterprise software project focuses on the devel
 &nbsp;  
 &nbsp;
 
+### Final Presentation :film_strip:
+[Presentation Slides](final-presentation-slides.pdf)  
+&nbsp;  
+&nbsp;
+
 ### Weekly blog posts 📰
 [Framgång Blog](https://dhbwse.wordpress.com/blog/)
 - [Week 18 - Project Retrospective](https://dhbwse.wordpress.com/2023/06/05/week-18-project-retrospective/)
@@ -71,7 +76,7 @@ The Inventory Management System Enterprise software project focuses on the devel
 &nbsp;  
 &nbsp;
 
-### Lessons Learned
+### Lessons Learned :mortar_board:
 - choose the project-scope not too big
 - at first, we had problems with the graphics in the documents (often inferior quality), today we pay attention to high resolution and appealing presentation
 - when choosing a provider, consider if and after which period the account will be suspended (mongoDB)
