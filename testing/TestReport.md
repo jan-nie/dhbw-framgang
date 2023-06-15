@@ -411,4 +411,21 @@ Last published: 2023-06-13 | Version: 1.0-SNAPSHOT
 | ![](icon_success.gif) | testApplicationExit | 1,731 |
 | ![](icon_success.gif) | testIconSetup | 1,355 |
 
+</br> 
+</br> 
+
+## Coverage
+<img src="coverage.png" alt="unit test coverage" width="750">  
+The figure above shows the progress of the code base during the entire duration of the project, as well as the test coverage. At the end of the project, we had 1.142 lines to cover, of which we covered 939 lines with unit tests. This results in a test coverage of 81.0%.  
+</br>  
+</br>  
+
+<img src="coverage-eclipse.png" alt="unit test coverage" width="750">  
+
+The figure above shows the test coverage of the unit tests in Eclipse. As can be seen, all packages were covered by tests and the coverage is between 75% and 100% per package. The test coverage was calculated in Eclipse and therefore differs slightly from the calculated metric from Sonarqube, as the lines to be covered are defined differently.  
+</br>  
+The detailed view of the coverage of the individual methods was compiled as a [JaCoCo report](coverage.zip). This can be downloaded, unzipped and the included index.html file opened in any browser. From this, it is possible to navigate to the individual packages and methods.  
+</br>  
+</br>  
+
 
